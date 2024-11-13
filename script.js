@@ -8,7 +8,7 @@ const products = [
 
 function loadProducts(filteredProducts = products) {
     const productList = document.getElementById("product-list");
-    productList.innerHTML = ""; // Clear previous products
+    productList.innerHTML = ""; 
 
     filteredProducts.forEach(product => {
         productList.innerHTML += `
