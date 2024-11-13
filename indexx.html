@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                     
+    <title>Interactive E-commerce Website</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Online Store!</h1>
+    </header>
+     <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('products')">Products</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+    
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search products...">
+        <button onclick="searchProducts()">Search</button>
+        <button onclick="viewCart()">View Cart</button>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    <!-- Main Sections -->
+    <div id="home" class="section active">
+        <h2>Home</h2>
+        <p>Welcome to our homepage! Discover our wide range of products and special offers.</p>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>Learn more about our company, mission, and the quality of our products.</p>
+    </div>
+
+    <div id="products" class="section">
+        <h2>Our Products</h2>
+        <div id="product-list"></div> <!-- Products will be dynamically generated here -->
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any questions or support.</p>
+    </div>
+    
+    <!-- Additional Content Section -->
+    <div class="additional-section">
+        <div class="featured">
+            <h3>Special Offers</h3>
+            <p>Check out our latest offers on electronics and apparel!</p>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+        <div class="social-media">
+            <h3>Connect With Us</h3>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+    </div>
+    
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My E-commerce Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

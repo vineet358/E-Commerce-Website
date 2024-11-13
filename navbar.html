@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Navbar with Centered Login Page</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling for centering content */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            flex-direction: column;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar ul li {
+            position: relative;
+            color: white;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color:white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #4CAF50;
+        }
+
+        /* Dropdown menu styling */
+        .navbar ul li .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #444;
+            padding: 10px 0;
+            min-width: 150px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+
+        .navbar ul li:hover .dropdown {
+            display: block;
+        }
+
+        .navbar ul li .dropdown a {
+            padding: 10px 20px;
+            display: block;
+            color: #fff;
+        }
+
+        .navbar ul li .dropdown a:hover {
+            background-color: #555;
+        }
+
+        /* Login form container */
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Login form title */
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: #333;
+        }
+
+        /* Input fields */
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        /* Remember me and button */
+        .login-container .remember-me {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .login-container .remember-me input {
+            margin-right: 8px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-container button:hover {
+            background-color: #45a049;
+        }
+
+        /* Links */
+        .login-container a {
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .login-container a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#" class="logo">MyLogo</a>
+        <ul>
+            <li><a href="indexx.html"></a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+                <a href="#">Services</a>
+                <div class="dropdown">
+                    <a href="#">Web Development</a>
+                    <a href="#">App Development</a>
+                    <a href="#">SEO</a>
+                </div>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Login Page -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form onsubmit="handleLogin(event)">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+            
+            <button type="submit">Login</button>
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+<script src="nav.js"></script>
+</script>
+</body>
+</html>
