@@ -212,14 +212,14 @@ footer {
 .product-container {
     display: flex;
     gap: 15px;
-    justify-content: flex-start; /* Aligns items to the start */
-    flex-wrap: wrap; /* Wraps items on smaller screens */
-    max-width: 100%; /* Ensures container is not too wide */
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    max-width: 100%; 
     padding: 20px;
 }
 
 .product-card {
-    width: 180px; /* Fixed width for each card */
+    width: 180px; 
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -230,8 +230,8 @@ footer {
 }
 
 .product-card img {
-    width: 100%; /* Full width of the card */
-    height: auto; /* Keeps the aspect ratio */
+    width: 100%; 
+    height: auto; 
     border-radius: 5px;
     margin-bottom: 10px;
 }
