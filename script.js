@@ -1,6 +1,6 @@
 // Example products with id added
 const products = [
-    { id: 1, name: 'T-shirt', price: '$10', image: 'https://via.placeholder.com/200?text=T-shirt' },
+    { id: 1, name: 'T-shirt', price: '$10', image: 'https://www.bing.com/images/search?view=detailV2&ccid=tHJA7sj4&id=36F251D106AC9EC1C2DADB30770C66B5AC3AEA4A&thid=OIP.tHJA7sj4pbIad2O-ESTOIAHaI0&mediaurl=https%3a%2f%2fi.pinimg.com%2f736x%2fe5%2f34%2fb6%2fe534b615e917b44129d86b28fa8a6a48.jpg&exph=876&expw=736&q=virat+kohli+jersey+pic&FORM=IRPRST&ck=FB3F82123C02D43CB32B37C1FF6D2CED&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0' },
     { id: 2, name: 'Jeans', price: '$20', image: 'https://via.placeholder.com/200?text=Jeans' },
     { id: 3, name: 'Shoes', price: '$30', image: 'https://via.placeholder.com/200?text=Shoes' },
     { id: 4, name: 'Watch', price: '$50', image: 'https://via.placeholder.com/200?text=Watch' }
