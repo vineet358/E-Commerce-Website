@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">                     
-    <title>Interactive E-commerce Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendify</title>
     <link rel="stylesheet" href="stylee.css">
 </head>
-<body>
 
+<body>
+    <header class="header">
+        <img src="data/Trendify.jpeg" class="logo" alt="Trendify Logo">
+        <p class="slogan">TRENDIFY</p>
+    </header>    
     
-    <header>
-        <h1>Welcome to Our Online Store!</h1>
-    </header>
-     
     <nav class="navbar">
+        <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
         <a href="#" onclick="showSection('home')">Home</a>
         <a href="#" onclick="showSection('about')">About</a>
         <a href="#" onclick="showSection('products')">Products</a>
         <a href="#" onclick="showSection('contact')">Contact</a>
-    </nav>
-    
-    
+    </nav>    
+
+
     <div class="search-bar">
         <input type="text" id="search-input" placeholder="Search products...">
         <button onclick="searchProducts()">Search</button>
@@ -28,7 +30,6 @@
         <button onclick="checkout()">Checkout</button>
     </div>
 
-    
     <div id="home" class="section active">
         <h2>Home</h2>
         <p>Welcome to our homepage! Discover our wide range of products and special offers.</p>
@@ -48,7 +49,6 @@
         <h2>Contact Us</h2>
         <p>Get in touch with us for any questions or support.</p>
     </div>
-    
 
     <div class="additional-section">
         <div class="featured">
@@ -65,11 +65,12 @@
             <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
         </div>
     </div>
-    
+
     <footer>
         <p>&copy; 2024 My E-commerce Website. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>

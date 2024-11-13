@@ -1,9 +1,9 @@
 
 const products = [
-    { id: 1, name: 'T-shirt', price: '$10', image: 'https://www.bing.com/images/search?view=detailV2&ccid=tHJA7sj4&id=36F251D106AC9EC1C2DADB30770C66B5AC3AEA4A&thid=OIP.tHJA7sj4pbIad2O-ESTOIAHaI0&mediaurl=https%3a%2f%2fi.pinimg.com%2f736x%2fe5%2f34%2fb6%2fe534b615e917b44129d86b28fa8a6a48.jpg&exph=876&expw=736&q=virat+kohli+jersey+pic&FORM=IRPRST&ck=FB3F82123C02D43CB32B37C1FF6D2CED&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0' },
-    { id: 2, name: 'Jeans', price: '$20', image: 'https://via.placeholder.com/200?text=Jeans' },
-    { id: 3, name: 'Shoes', price: '$30', image: 'https://via.placeholder.com/200?text=Shoes' },
-    { id: 4, name: 'Watch', price: '$50', image: 'https://via.placeholder.com/200?text=Watch' }
+    { id: 1, name: 'T-shirt', price: '10', image: 'https://i.pinimg.com/originals/0d/00/4a/0d004ad02a76669feced605f1abbd704.jpg' },
+    { id: 2, name: 'Jeans', price: '20', image: 'https://th.bing.com/th/id/OIP.1ip3Ln1NctW3cYenhyDBiQAAAA?rs=1&pid=ImgDetMain' },
+    { id: 3, name: 'Shoes', price: '30', image: 'https://ae01.alicdn.com/kf/HTB1USDwasfrK1RkSmLyq6xGApXa6/Ladies-Trainer-Shoes-for-Women-Designer-Sneakers-Women-s-Footware-Platform-Cushion-Flats-Walking-Shoes-Spring.jpg' },
+    { id: 4, name: 'Watch', price: '50', image: 'https://thegentlemendiary.com/wp-content/uploads/2023/07/1713BM02_1.webp' }
 ];
 
 function loadProducts(filteredProducts = products) {

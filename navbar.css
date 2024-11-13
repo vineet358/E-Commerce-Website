@@ -1,0 +1,188 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-image: url('data/Background.jpeg'); /* Add your background image path here */
+     background-size: cover; /* Ensures the image covers the entire body */
+     background-position: center; /* Centers the image */
+     background-repeat: no-repeat; /* Prevents the image from repeating */
+     background-attachment: fixed; /* Keeps the background fixed during scrolling */
+     color: #fff; /* White text to contrast against the background */
+ }
+ 
+
+.navbar {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 30px;
+     background-color: rgba(0, 0, 0, 0.3);
+     color: #fff;
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+
+.navbar .slogan {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: #fff;
+     text-decoration: none;
+}
+
+.navbar ul {
+     list-style: none;
+     display: flex;
+     gap: 20px;
+}
+
+.navbar ul li {
+     position: relative;
+     color: white;
+}
+
+.navbar ul li a {
+     text-decoration: none;
+     color: white;
+     font-size: 1rem;
+     transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+     color: #4CAF50;
+}
+
+.navbar ul li .dropdown {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.3);
+     padding: 10px 0;
+     min-width: 150px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+}
+ 
+.navbar ul li:hover .dropdown {
+     display: block;
+     opacity: 1;
+} 
+
+.navbar ul li .dropdown a {
+     padding: 10px 20px;
+     display: block;
+     color: #fff;
+}
+
+.navbar ul li .dropdown a:hover {
+     background-color: #555;
+}
+
+
+.login-container {
+     width: 100%;
+     max-width: 400px;
+     padding: 40px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     text-align: center;
+}
+
+
+.login-container h2 {
+     margin-bottom: 20px;
+     font-size: 1.8rem;
+     color: #333;
+}
+
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+     width: 100%;
+     padding: 12px 15px;
+     margin: 10px 0;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 1rem;
+}
+
+
+.login-container .remember-me {
+     display: flex;
+     align-items: center;
+     font-size: 0.9rem;
+     color: #333;
+     margin: 10px 0;
+}
+
+.login-container .remember-me input {
+     margin-right: 8px;
+}
+
+.login-container button {
+     width: 100%;
+     padding: 12px;
+     background-color: #4CAF50;
+     border: none;
+     border-radius: 4px;
+     color: white;
+     font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+     background-color: #45a049;
+}
+
+
+.login-container a {
+     display: block;
+     margin-top: 15px;
+     font-size: 0.9rem;
+     color: #333;
+     text-decoration: none;
+}
+
+.login-container a:hover {
+     color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+     .navbar ul {
+         flex-direction: column;
+         gap: 10px;
+         background-color: #333;
+         position: absolute;
+         top: 60px; /* Adjust based on navbar height */
+         width: 100%;
+         left: 0;
+         display: none; /* Initially hidden */
+     }
+ 
+     .navbar ul.active {
+         display: flex; /* Show when toggled */
+     }
+ 
+     /* Example for a hamburger icon */
+     .navbar .menu-toggle {
+         display: block;
+         font-size: 1.5rem;
+         cursor: pointer;
+         color: #fff;
+     }
+}
+ 

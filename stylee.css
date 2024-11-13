@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +9,30 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    text-align: center;
+/* Header styling with Flexbox for horizontal alignment */
+.header {
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    justify-content: center; /* Horizontally centers items */
     background-color: #4CAF50;
     color: white;
-    padding: 40px 20px;
-    font-size: 2rem;
+    padding: 0px; /* Increased padding for a larger header area */
+    gap: 30px; /* Larger gap between logo and slogan */
+}
+
+/* Logo styling */
+.logo {
+    height:200px; /* Increased height for larger display */
+    width: auto; /* Maintains aspect ratio */
+    margin-right: 15px; /* Extra spacing between logo and slogan */
+}
+
+/* Slogan styling */
+.slogan {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    font-weight: bold; /* Emphasizes the slogan */
+    margin: 0; /* Removes default margin */
+    letter-spacing: 2px; /* Adds spacing between letters for style */
 }
 
 .navbar {
@@ -234,4 +251,33 @@ footer {
     height: auto; 
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+/* Style for Hamburger Icon */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        display: none; /* Hide links by default */
+        padding: 10px 20px;
+        width: 100%; /* Full width for each link */
+    }
+
+    .navbar .menu-toggle {
+        display: block; /* Show the hamburger icon */
+    }
+
+    .navbar.active a {
+        display: block; /* Show links when active */
+    }
 }
