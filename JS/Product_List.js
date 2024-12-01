@@ -127,8 +127,8 @@ const products = [
      { id: 126, name: "Natural Honey (500g)", category: "Groceries", image: "https://honeyday.in/wp-content/uploads/2021/04/MF-500g.jpg", price: 5 },
      { id: 127, name: "Brown Basmati Rice (5kg)", category: "Groceries", image: "https://rukminim2.flixcart.com/image/720/864/kr2e3680/rice/j/q/p/5-brown-brown-basmati-rice-5kg-gluten-free-na-basmati-rice-bag-original-imag4y29z3rbkyxm.jpeg?q=60&crop=false", price: 10 },
      { id: 128, name: "Mixed Dry Fruits (1kg)", category: "Groceries", image: "https://growstar.in/wp-content/uploads/2021/04/dry-fruit-mix-20190424182218.jpg", price: 14 },
-     { id: 129, name: "Dark Chocolate (80%)", category: "Snacks", image: "https://royceindia.com/cdn/shop/files/NamaGhanaBitterChocolate.webp?v=1706515548", price: 2 },
-     { id: 130, name: "Fresh Strawberries (500g)", category: "Fruits", image: "https://www.12taste.com/in/wp-content/uploads/2022/10/fresh-strawberries-wooden-table-scaled.jpg", price: 4 },
+     { id: 129, name: "Dark Chocolate (80%)", category: "Groceries", image: "https://royceindia.com/cdn/shop/files/NamaGhanaBitterChocolate.webp?v=1706515548", price: 2 },
+     { id: 130, name: "Fresh Strawberries (500g)", category: "Groceries", image: "https://www.12taste.com/in/wp-content/uploads/2022/10/fresh-strawberries-wooden-table-scaled.jpg", price: 4 },
      { id: 131, name: "Air Purifier", category: "Home Appliances", image: "https://ausclimate.com.au/cdn/shop/files/WebsiteImagesPROMO_11.jpg?v=1731364617&width=2048", price: 114 },
      { id: 132, name: "Induction Cooktop", category: "Kitchen Appliances", image: "https://i5.walmartimages.com/asr/38dd46e1-043c-44f9-9eb9-f6350f3c6706.e2175b73b10791882acd8e542e6516e3.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF", price: 30 },
      { id: 133, name: "Electric Kettle", category: "Kitchen Appliances", image: "https://wiproappliances.com/cdn/shop/articles/Finding_Your_Perfect_Cup-_A_Guide_to_Choosing_the_Best_Electric_Kettle_for_You_aa782981-38f2-494a-98cd-931e0d11489b.webp?v=1722327627", price: 22 },
@@ -137,7 +137,7 @@ const products = [
      { id: 136, name: "Dune", category: "Books", image: "https://creativereview.imgix.net/content/uploads/2023/10/dune-book-1.jpg?auto=compress,format&q=60&w=1200&h=800", price: 15 },
      { id: 137, name: "The Glass Castle", category: "Books", image: "https://m.media-amazon.com/images/M/MV5BMTY2Nzk0MDE3Nl5BMl5BanBnXkFtZTgwOTI0ODc0MjI@._V1_.jpg", price: 12 },
      { id: 138, name: "Dishwasher", category: "Kitchen Appliances", image: "https://imgmedia.lbb.in/media/2024/01/6597aaa746497c53e1fc2483_1704438439664.jpg", price: 482 },
-     { id: 139, name: "Gaming Laptop", category: "Computers", image: "https://helios-i.mashable.com/imagery/roundup-products/07qRZoffGYcDSFLJDpsfJeF/product-image.fill.size_1200x1200.v1723835686.jpg", price: 1024 },
+     { id: 139, name: "Gaming Laptop", category: "Electronics", image: "https://helios-i.mashable.com/imagery/roundup-products/07qRZoffGYcDSFLJDpsfJeF/product-image.fill.size_1200x1200.v1723835686.jpg", price: 1024 },
      { id: 140, name: "Smartwatch", category: "Accessories", image: "https://hmadmin.hamleys.in/product/493174787/665/493174787-6.jpg", price: 120 },
      { id: 141, name: "The Left Hand of Darkness", category: "Books", image: "https://www.shopatmatter.com/wp-content/uploads/Books/LeftHandOfDarknessCover.jpg", price: 14 },
      { id: 142, name: "The Subtle Art of Not Giving a Fuck", category: "Books", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqFdw8HYhXNsXzIkdWfaOL3pBpAR0q0kUYtg&s", price: 11 },
@@ -180,7 +180,14 @@ const products = [
      { id: 179, name: "The Travel Book", category: "Books", image: "https://images.urbndata.com/is/image/UrbanOutfitters/69486975_000_g?$xlarge$&fit=constrain&qlt=80&wid=640", price: 22 },
      { id: 180, name: "Vagabonding", category: "Books", image: "https://www.dominicanabroad.com/wp-content/uploads/2022/01/vagabonding-book.jpg", price: 25 },
      { id: 181, name: "Where the Crawdads Sing", category: "Books", image: "https://cdn.dribbble.com/users/11713389/screenshots/18313790/wherethecrawdadssing_dribbble.jpg", price: 14 },
-     { id: 182, name: "Mastering Light", category: "Books", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOagWnch1C3ad74Lhp2DT-MJCuWgeVT-J3e1zPKTqi-5IXUoM0JLqw7hG7jybbnMl-tx0&usqp=CAU", price: 18 }
-
+     { id: 182, name: "Mastering Light", category: "Books", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOagWnch1C3ad74Lhp2DT-MJCuWgeVT-J3e1zPKTqi-5IXUoM0JLqw7hG7jybbnMl-tx0&usqp=CAU", price: 18 },
+     { id: 183, name: "Notebook (Set of 3)", category: "Office Supplies", image: "https://th.bing.com/th/id/R.2015c0fd4e0a017cf2afa876ade81b5d?rik=78J2prIMW9cPBg&riu=http%3a%2f%2fcdn.notonthehighstreet.com%2ffs%2f46%2f88%2fee5f-8c55-4b20-8b6d-be3c4cabf947%2foriginal_stationery-notebook-gift-set.jpg&ehk=fYI5%2f9uVyquM7zdCqdys5UYsm6qzerw4S1Vn9CmRiFo%3d&risl=&pid=ImgRaw&r=0", price: 300 },
+     { id: 184, name: "Ballpoint Pen Set", category: "Office Supplies", image: "https://th.bing.com/th/id/OIP.gWSHvRojQLKTOAAo09rm-AHaHa?rs=1&pid=ImgDetMain", price: 200 },
+     { id: 185, name: "Desk Organizer", category: "Office Supplies", image: "https://th.bing.com/th/id/OIP.kA-jQiPKzeAvXOI3oj6EzAAAAA?rs=1&pid=ImgDetMain", price: 800 },
+     { id: 186, name: "Sticky Notes", category: "Office Supplies", image: "https://th.bing.com/th/id/OIP.NCWAbIAxrukiOrMi6cAwSQHaHa?rs=1&pid=ImgDetMain", price: 150 },
+     { id: 187, name: "Highlighter Pack", category: "Office Supplies", image: "https://th.bing.com/th/id/OIP.P-RiSF-1y35QCPdDGE_5nQHaHa?rs=1&pid=ImgDetMain", price: 250 },
+     { id: 188, name: "Whiteboard with Markers", category: "Office Supplies", image: "https://startupstockphotos.com/wp-content/uploads/2021/12/ssp026.jpg", price: 1500 },
+     { id: 189, name: "Paper Shredder", category: "Office Supplies", image: "https://th.bing.com/th/id/OIP.QSJYWOwUDuCYAnci92zbfgHaHa?w=960&h=960&rs=1&pid=ImgDetMain", price: 3500 },
+     { id: 190, name: "File Folder Set", category: "Office Supplies", image: "https://th.bing.com/th/id/OIP.31KBY1SyC6IS_wZvQt-p8AHaHa?rs=1&pid=ImgDetMain", price: 500 }
 ];
 export default products; // Default export
