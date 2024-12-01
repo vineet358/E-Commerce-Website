@@ -124,6 +124,76 @@ body {
 }
 
 /*-------------------------------------CONTACT PAGE FORMATTING------------------------------------*/
+.contact-container {
+     background-color: #f9f9f9;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 20px;
+     max-width: 600px;
+     margin: 20px auto;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     font-family: 'Open Sans', sans-serif;
+}
+
+.contact-container h1 {
+     text-align: center;
+     font-family: 'Merriweather', serif;
+     color: #333;
+}
+
+.contact-container p {
+     font-size: 1rem;
+     color: #555;
+     margin-bottom: 20px;
+     text-align: center;
+}
+
+.contact-form {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+
+.input-group {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     padding: 10px;
+     background-color: #fff;
+}
+
+.input-group i {
+     font-size: 1.2rem;
+     color: #888;
+}
+
+.input-group input,
+.input-group textarea {
+     flex: 1;
+     border: none;
+     outline: none;
+     font-size: 1rem;
+     font-family: inherit;
+     padding: 5px;
+}
+
+.contact-form button {
+     background-color: #3CBF4E;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 15px;
+     font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+     background-color: #45a049;
+}
+
 .listM {
      width: 100%;
      max-width: 600px;
@@ -137,6 +207,7 @@ body {
 
 /* Header with a distinct background */
 .listM h3 {
+     font-family: 'Merriweather', Cambria, serif;
      margin-bottom: 15px;
      font-size: 1.4rem;
      color: white;
