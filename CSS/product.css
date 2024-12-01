@@ -1,4 +1,4 @@
-/*-------------------------------------FOR BODY AND HTML PAGE-------------------------------------*/
+/*------------------------------------------------FOR BODY AND HTML PAGE-------------------------------------------------*/
 * {
      margin: 0;
      padding: 0;
@@ -12,7 +12,7 @@ body {
      font-family: Arial, sans-serif;
 }
 
-/*-----------------------------------PRODUCT SECTION FORMATTING-----------------------------------*/
+/*----------------------------------------------PRODUCT SECTION FORMATTING-----------------------------------------------*/
 .section {
      width: 100%;
      max-width: 1200px;
@@ -33,7 +33,7 @@ body {
      font-weight: bold;
 }
 
-/*--------------------------------------SEARCH BAR FORMATTING-------------------------------------*/
+/*--------------------------------------------------SEARCH BAR FORMATTING------------------------------------------------*/
 .search-bar {
      display: flex;
      justify-content: center;
@@ -82,7 +82,7 @@ body {
      background-color: #45a049;
 }
 
-/*----------------------------------PRODUCT CONTAINER FORMATTING----------------------------------*/
+/*----------------------------------------------PRODUCT CONTAINER FORMATTING---------------------------------------------*/
 .product-container {
      display: flex;
      flex-wrap: wrap;
@@ -93,7 +93,7 @@ body {
      box-sizing: border-box;
 }
 
-/*-------------------------------------PRODUCT CARD FORMATTING------------------------------------*/
+/*--------------------------------------------------PRODUCT CARD FORMATTING----------------------------------------------*/
 .product-card {
      width: calc(25% - 15px);
      padding: 15px;
