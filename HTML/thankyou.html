@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Order!</title>
+    <link rel="stylesheet" href="../CSS/thankyou.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header-container"></div>
+
+    <!-- Thank You Message Section -->
+    <div id="thankyou" class="section">
+        <h1>Thank You for Your Order!</h1>
+        <p>We appreciate your purchase and look forward to serving you again.</p>
+
+        <!-- Order Summary -->
+        <div id="order-summary">
+            <h2>Order Summary</h2>
+            <p><strong>Order Number:</strong> <span id="order-number">Loading...</span></p>
+            <p><strong>Order Total:</strong> $<span id="order-total">Loading...</span></p>
+            <p><strong>Estimated Delivery Date:</strong> 3-5 Business Days</p>
+        </div>
+
+        <!-- Next Steps Section -->
+        <div id="next-steps">
+            <h3>What's Next?</h3>
+            <ul>
+                <li>You will receive an email confirmation with your order details.</li>
+                <li>Track your order through your account page.</li>
+                <li>If you have any questions, feel free to <a href="contact.html">contact us</a>.</li>
+            </ul>
+        </div>
+
+        <!-- Return to Shop Button -->
+        <button id="return-to-shop" onclick="window.location.href = 'index.html';">Return to Shop</button>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer-container"></div>
+
+    <script src="../JS/Header_Footer.js"></script>
+    <script>
+        const orderDetails = JSON.parse(localStorage.getItem('orderDetails'));
+        if (orderDetails) {
+            document.getElementById('order-total').textContent = orderDetails.total.toFixed(2);
+            document.getElementById('order-number').textContent = 'ORD' + Math.floor(Math.random() * 1000000);
+        } else {
+            document.getElementById('order-total').textContent = 'Error: Order data not found';
+            document.getElementById('order-number').textContent = 'Error: Order data not found';
+        }
+        localStorage.removeItem('orderDetails');
+    </script>
+
+</body>
+</html>

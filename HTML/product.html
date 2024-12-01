@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive E-commerce Website</title>
+    <link rel="stylesheet" href="../CSS/product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header-container"></div>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search products...">
+        <select id="filter-category">
+            <!-- Categories will be dynamically added here -->
+        </select>        
+        <button onclick="searchProducts()">Search</button>
+        <a class="anchor" href="cart.html" onclick="showSection('cart')">View Cart</a>
+        <a class="anchor" href="checkout.html" onclick="showSection('checkout')">Checkout</a>
+    </div>    
+    <div id="products" class="section">
+        <h1>Our Products</h1>
+        <div id="product-list" class="product-container">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script type="module" src="../JS/script.js"></script>
+    <script src="../JS/Header_Footer.js"></script>
+</body>
+</html>

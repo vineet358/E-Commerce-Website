@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../CSS/Checkout.css">
+    <link rel="stylesheet" href="../CSS/product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <div id="checkout" class="section">
+        <h1>Checkout</h1>
+
+        <!-- Cart Summary -->
+        <div id="cart-summary" class="checkout-section">
+            <div id="cart-items"></div>
+            <p id="cart-total"></p>
+        </div>
+        <div id="cart-summary" class="checkout-section">
+            <h2>Billing and Payments</h2>
+            <form id="checkout-form" class="checkout-form">
+                <div id="billing-info" class="billing-info">
+                    <input type="text" id="name" placeholder="Full Name" required aria-label="Full Name">
+                    <input type="email" id="email" placeholder="Email Address" required aria-label="Email Address">
+                    <input type="tel" id="phone" placeholder="Phone Number" required aria-label="Phone Number">
+                    <textarea id="address" placeholder="Shipping Address" required aria-label="Shipping Address"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <!-- Confirm Order Button -->
+        <button id="confirm-order" onclick="placeOrder()">Place Order</button>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="../JS/Header_Footer.js"></script>
+    <script type="module" src="../JS/Checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+/*-------------------------------------FOR BODY AND HTML PAGE-------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+/*--------------------------------------SLIDESHOW FORMATTING-------------------------------------*/
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    height: 250px;
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px; 
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.prev {
+    left: 2px;
+}
+
+.next {
+    right: 2px;
+}
+
+.prev:active, .next:active {
+    border: 2px solid black;
+    box-shadow: 0 0 0 1.5px #ddd;
+}
+
+/*--------------------------------------CATEGORIES FORMATTING-------------------------------------*/

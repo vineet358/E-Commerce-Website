@@ -1,0 +1,137 @@
+/*-----------------------------------------FOR HTML PAGE------------------------------------------*/
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html{
+     height: 100%;
+}
+
+/*------------------------------------HEADER SECTION FORMATTING-----------------------------------*/
+.header .logo-section {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #3CBF4E;
+     color: white;
+}
+
+/* Logo styling */
+.header .logo-section img {
+     height: 200px;
+     width: auto;
+     margin-right: 15px;
+}
+
+/* Slogan styling */
+.header .logo-section p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 2.7rem;
+     font-weight: 700;
+     margin: 0;
+     letter-spacing: 2px;
+}
+
+.header .navbar {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     padding: 10px;
+     background-color: #444;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .navbar a {
+     color: #fff;
+     text-decoration: none;
+     padding: 8px 12px;
+     border-radius: 5px;
+     font-family: 'Roboto', sans-serif;
+     transition: background-color 0.3s, color 0.3s;
+     font-size: 1rem;
+}
+
+.header .navbar a:hover {
+     background-color: #3CBF4E;
+     color: white;
+}
+
+/*------------------------------------FOOTER SECTION FORMATTING-----------------------------------*/
+
+.footer .additional-section {
+     display: flex;
+     justify-content: space-around;
+     background-color: #f8f8f8;
+     padding: 30px;
+     gap: 20px;
+}
+
+.footer .additional-section div{
+     flex: 1;
+     text-align: center;
+}
+
+.footer .additional-section h3 {
+     font-size: 1.2rem;
+     margin-bottom: 15px;
+     color: #333;
+}
+
+.footer .additional-section p, .additional-section input, .additional-section a {
+     font-size: 1rem;
+     color: #666;
+     margin-bottom: 10px;
+     display: block;
+}
+
+.footer .additional-section p {
+     background-color: #f8f8f8;
+}
+
+.footer .additional-section input[type="email"] {
+     padding: 10px;
+     width: 80%;
+     margin: 0 auto;
+     border-radius: 5px;
+     border: 1px solid #ddd;
+}
+
+.footer .additional-section button {
+     padding: 8px 12px;
+     background-color: #3CBF4E;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 1rem;
+     margin-top: 15px;
+     transition: background-color 0.3s;
+}
+
+.footer .additional-section button:hover {
+     background-color: #45a049;
+}
+
+.footer .additional-section a {
+     font-family: 'Merriweather', Cambria, serif;
+     color: #4CAF50;
+     text-decoration: none;
+     font-size: 0.9rem;
+     transition: color 0.3s;
+}
+
+.footer .additional-section a:hover {
+     color: #333;
+}
+
+.footer p {
+     text-align: center;
+     background-color: #555;
+     color: white;
+     padding: 15px;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+}

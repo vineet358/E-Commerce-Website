@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Login Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Navigation Page for Login">
+    <link rel="stylesheet" href="CSS/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="JS/login.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="docs/Trendify.jpeg" class="slogan">TRENDIFY</a>
+        <ul>
+            <li><a href="HTML/about.html">About</a></li>
+            <li>
+                <a href="#">Services</a>
+                <div class="dropdown">
+                    <a href="#">Web Development</a>
+                    <a href="#">App Development</a>
+                    <a href="#">SEO</a>
+                </div>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="HTML/contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form onsubmit="handleLogin(event)">
+
+            <div class="input-container">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+
+            <!-- CAPTCHA Section -->
+            <div class="captcha-container">
+                <canvas id="captchaCanvas" width="150" height="50"></canvas>
+                <button type="button" id="refreshCaptcha">↻</button>
+                <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" required>
+            </div>
+            <div id="captchaFallback" style="font-size: 20px; font-weight: bold; color: #333; display: none;"></div>
+    
+            <hr class="separator">
+            
+            <!-- Remember Me and Forgot Password Section -->
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+            <button type="submit">Login</button>
+            <a href="#">Forgot Password?</a>
+
+        </form>
+    </div> 
+</body>
+</html>

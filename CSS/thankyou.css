@@ -1,0 +1,81 @@
+/*------------------------------------ FOR BODY AND PAGE ------------------------------------*/
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html, body {
+     height: 100%;
+     font-family: 'Roboto', sans-serif;
+}
+
+/*------------------------------------ THANK YOU SECTION -----------------------------------*/
+.section h1, h2, h3 {
+     font-family: 'Merriweather', Cambria, serif;
+     font-weight: bold;
+     color: #3CBF4E;
+     margin-bottom: 20px;
+}
+
+#thankyou {
+     padding: 40px;
+     text-align: center;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+     margin: 40px auto;
+     width: 70%;
+     max-width: 800px;
+}
+
+#thankyou p {
+     font-size: 18px;
+     color: #333;
+     margin-bottom: 30px;
+}
+
+/*/*------------------------------------ORDER SUMMARY FORMATTING----------------------------------*/
+#order-summary {
+     background-color: #f5f5f5;
+     padding: 20px;
+     border-radius: 8px;
+     margin-bottom: 30px;
+}
+
+#order-summary p {
+     font-size: 18px;
+     color: #333;
+     margin-bottom: 10px;
+}
+
+#next-steps {
+     text-align: left;
+     margin-bottom: 30px;
+}
+
+#next-steps ul {
+     list-style-type: none;
+     padding-left: 20px;
+}
+
+#next-steps li {
+     font-size: 18px;
+     color: #000;
+     margin-bottom: 8px;
+}
+
+/*------------------------------------RETURN BUTTON FORMATTING----------------------------------*/
+#return-to-shop {
+     font-size: 18px;
+     padding: 12px 25px;
+     background-color: #3CBF4E;
+     color: #ffffff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+
+#return-to-shop:hover {
+     background-color: #4CAF50;
+}

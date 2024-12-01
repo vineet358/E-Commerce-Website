@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="../CSS/product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search products..."> 
+        <button onclick="searchProducts()">Search</button>
+        <a class="anchor" href="checkout.html" onclick="showSection('checkout')">Checkout</a>
+    </div>
+
+    <div id="cart" class="section">
+        <h1>Your Cart</h1>
+        <div id="cart-list" class="product-container">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="../JS/Header_Footer.js"></script>
+    <script type="module" src="../JS/Cart.js"></script>
+</body>
+</html>

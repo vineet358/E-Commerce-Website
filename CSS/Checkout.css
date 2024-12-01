@@ -1,0 +1,81 @@
+/*--------------------------------------FOR CHECKOUT SECTION--------------------------------------*/
+.checkout-section {
+     margin: 20px 0;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     background-color: #fff;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Input Fields Styling */
+#checkout-form input, #checkout-form textarea {
+     font-family: 'Roboto', sans-serif;
+     display: block;
+     width: 100%;
+     padding: 12px;
+     margin: 12px 0;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     font-size: 16px;
+     background-color: #fff;
+}
+
+#checkout-form input:focus, #checkout-form textarea:focus {
+     border-color: #3CBF4E;
+     outline: none;
+}
+
+/*----------------------------------PLACE ORDER BUTTON FORMATTING---------------------------------*/
+#confirm-order {
+     font-family: 'Merriweather', serif;
+     display: block;
+     width: 15%; /* Adjusted width for button */
+     padding: 15px;
+     background-color: #3CBF4E;
+     color: white;
+     font-size: 18px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin: 20px auto;
+}
+
+#confirm-order:hover {
+     background-color: #4CAF50;
+}
+
+/*-------------------------------------CHECKOUT CARD FORMATTING-----------------------------------*/
+
+#cart-items {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 20px;
+     gap: 20px;
+}
+
+#cart-items .cart-item {
+     padding: 15px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     background-color: #fff;
+     width: calc(33.333% - 20px);
+     text-align: center;
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items .cart-item img {
+     width: 100px;
+     height: 100px;
+     object-fit: cover;
+     border-radius: 4px;
+     margin-bottom: 10px;
+}
+
+#cart-total {
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 20px;
+}

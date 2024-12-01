@@ -1,0 +1,222 @@
+/*-------------------------------------FOR BODY AND HTML PAGE-------------------------------------*/
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-image: url('../docs/Background.jpeg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     color: #fff;
+}
+
+/*------------------------------------NAVIGATION BAR FORMATTING-----------------------------------*/
+.navbar {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 30px;
+     background-color: rgba(0, 0, 0, 0.3);
+     color: #fff;
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+
+.navbar .slogan {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: #fff;
+     text-decoration: none;
+}
+
+.navbar ul {
+     list-style: none;
+     display: flex;
+     gap: 20px;
+}
+
+/* Services dropdown logic */
+.navbar ul li {
+     position: relative;
+     color: white;
+}
+
+.navbar ul li .dropdown {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.3);
+     padding: 10px 0;
+     min-width: 150px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+}
+
+/* Show the dropdown on hover of the Services link */
+.navbar ul li:hover .dropdown {
+     display: block;
+     opacity: 1;
+}
+
+/* Dropdown link styling */
+.navbar ul li .dropdown a {
+     padding: 10px 20px;
+     display: block;
+     color: #fff;
+}
+
+.navbar ul li .dropdown a:hover {
+     background-color: #555;
+}
+
+.navbar ul li a {
+     text-decoration: none;
+     color: white;
+     font-size: 1rem;
+     transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+     color: #4CAF50;
+}
+
+/*------------------------------------LOGIN CONTAINER FORMATTING----------------------------------*/
+.login-container {
+     width: 100%;
+     max-width: 400px;
+     padding: 30px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     position: relative;
+}
+
+.login-container h2 {
+     font-family: 'Merriweather', Cambria, serif;
+     margin-bottom: 20px;
+     font-size: 1.8rem;
+     color: #000;
+}
+
+.login-container input[type="text"], .login-container input[type="password"], .login-container .captcha-container input[type="text"] {
+     width: 100%;
+     padding: 9px 15px;
+     margin: 8px 0;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 1rem;
+}
+
+.login-container .remember-me {
+     display: flex;
+     align-items: center;
+     font-size: 0.9rem;
+     color: #000;
+     margin: 10px 0;
+}
+
+.login-container .remember-me input {
+     margin-right: 8px;
+}
+
+.login-container button {
+     font-family: 'Merriweather', Cambria, serif;
+     width: 97%;
+     padding: 10px;
+     background-color: #3CBF4E;
+     border: none;
+     border-radius: 4px;
+     color: white;
+     font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+     background-color: #4CAF50;
+     transform: scale(1.05);
+}
+
+.login-container a {
+     display: block;
+     margin-top: 15px;
+     font-size: 0.9rem;
+     color: #000;
+     text-decoration: none;
+}
+
+.login-container a:hover {
+     color: #4CAF50;
+}
+
+/* Horizontal line separator between sections */
+.separator {
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 15px 0;
+} 
+
+/*-----------------------------------CAPTCHA CONTAINER FORMATTING---------------------------------*/
+.login-container .captcha-container {
+     width: 98.6%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 5px;
+}
+
+/* Button styles */
+.login-container .captcha-container button {
+     padding: 5px 10px;
+     background-color: white;
+     color: #3CBF4E;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 25px;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+/* Canvas styles */
+.login-container .captcha-container #captchaCanvas {
+     width: 120px;
+     height: 40px;
+}
+
+/* Fallback Text for CAPTCHA */
+#captchaFallback {
+     display: none;
+     text-align: center;
+     margin-top: 10px;
+     color: #000;
+     font-size: 1.2rem;
+     font-weight: bold;
+}
+
+/* Input styles for CAPTCHA */
+.login-container .captcha-container input {
+     padding: 5px;
+     font-size: 1rem;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     width: 100%;
+}

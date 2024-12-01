@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendify</title>
+    <link rel="stylesheet" href="../CSS/product.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body .section {
+            position: relative;
+            margin-top: -300px;
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+        }
+        body .product-card{
+            background-color: transparent;
+        }
+        body .product-card p{
+            gap: 10px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body .product-card h3{
+            font-size: 25px;
+            font-family: 'Great Vibes', cursive;
+            color: #3CBF4E;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header-container">Loading header...</div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="../docs/Discounts/Discount1.jpeg" alt="Slide 1">
+        </div>
+        <div class="mySlides fade">
+            <img src="../docs/Discounts/Discount2.jpeg" alt="Slide 2">
+        </div>
+        <div class="mySlides fade">
+            <img src="../docs/Discounts/Discount3.jpeg" alt="Slide 3">
+        </div>
+        <div class="mySlides fade">
+            <img src="../docs/Discounts/Discount4.jpeg" alt="Slide 4">
+        </div>
+        <div class="mySlides fade">
+            <img src="../docs/Discounts/Discount5.jpeg" alt="Slide 5">
+        </div>
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>    
+    </div>
+
+    <!-- Categories Section -->
+    <div id="category" class="section">
+        <h1>Our Categories</h1>
+        <div id="category-list" class="product-container">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </div>
+    <div id="footer-container">Loading footer...</div>
+
+    <script src="../JS/Header_Footer.js"></script>
+    <script type="module" src="../JS/Slideshow.js"></script>
+
+</body>
+</html>
