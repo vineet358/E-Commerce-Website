@@ -26,7 +26,7 @@ function loadProducts(filteredProducts = products) {
         productCard.appendChild(name);
 
         const price = document.createElement('p');
-        price.textContent = `Price: $${product.price}`;
+        price.textContent = `Price: ₹${product.price}`;
         productCard.appendChild(price);
 
         const existingProduct = cart.find(item => item.product.id === product.id);

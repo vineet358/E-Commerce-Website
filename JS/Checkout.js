@@ -34,7 +34,7 @@ function loadCartSummary() {
         productCard.appendChild(quantityDisplay);
         
         const totalPrice = document.createElement('p');
-        totalPrice.textContent = `Total Price: $${(product.price * quantity).toFixed(2)}`;
+        totalPrice.textContent = `Total Price: ₹${(product.price * quantity).toFixed(2)}`;
         productCard.appendChild(totalPrice);
 
         cartItems.appendChild(productCard);
