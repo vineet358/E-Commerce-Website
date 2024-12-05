@@ -10,6 +10,8 @@ const products = [
      { id: 8, name: 'V-Neck Summer Tee', price: 549, category: 'T-Shirts', image: 'https://cbu01.alicdn.com/img/ibank/2018/773/581/8688185377_2107390325.jpg' },
      { id: 9, name: 'Pocketed Basic Tee', price: 499, category: 'T-Shirts', image: 'https://thedailylab.co/cdn/shop/files/Screenshot2023-06-02at3.19.48PM_1500x.png?v=1688442424' },
      { id: 10, name: 'Longline Urban Tee', price: 799, category: 'T-Shirts', image: 'https://i.pinimg.com/originals/60/2e/11/602e112fce3bd80eabc3853f5532f43b.jpg' },
+     { id: 175, name: 'Halloween Printed Tees', price: 799, category: 'T-Shirts', image: '' },
+     { id: 179, name: 'Valentine’s Day Red Shirts', price: 999, category: 'T-Shirts', image: '' },
 
      // Shirts
      { id: 11, name: 'Slim Fit Formal Shirt', price: 999, category: 'Shirts', image: 'https://tse3.mm.bing.net/th?id=OIP.2smO6EbmQVqr37cYtqkVXQHaJ1&pid=Api&P=0&h=180' },
@@ -71,6 +73,7 @@ const products = [
      { id: 58, name: 'Embroidered Logo Sweatshirt', price: 1599, category: 'Hoodies & Sweatshirts', image: '' },
      { id: 59, name: 'Kangaroo Pocket Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: '' },
      { id: 60, name: 'Thermal Knit Hoodie', price: 1699, category: 'Hoodies & Sweatshirts', image: '' },
+     { id: 180, name: 'Spring Pastel Hoodies', price: 1599, category: 'Hoodies & Sweatshirts', image: '' },
 
      // Shorts
      { id: 81, name: 'Classic Denim Shorts', price: 999, category: 'Shorts', image: '' },
@@ -95,6 +98,7 @@ const products = [
      { id: 108, name: 'Ribbed Yoga Set', price: 1999, category: 'Activewear', image: '' },
      { id: 109, name: 'Seamless Workout Tee', price: 899, category: 'Activewear', image: '' },
      { id: 110, name: 'Gym Stringer Vest', price: 699, category: 'Activewear', image: '' },
+     { id: 176, name: 'Patriotic Print Tops', price: 1099, category: 'Activewear', image: '' },
 
      // Sleepwear
      { id: 111, name: 'Cotton Pajama Set', price: 1299, category: 'Sleepwear', image: '' },
@@ -120,6 +124,7 @@ const products = [
      { id: 138, name: 'Beanie and Gloves Set', price: 999, category: 'Winterwear', image: '' },
      { id: 139, name: 'Fur-Lined Ankle Boots', price: 2499, category: 'Winterwear', image: '' },
      { id: 140, name: 'Thermal Base Layer', price: 1299, category: 'Winterwear', image: '' },
+     { id: 171, name: 'Christmas Themed Sweaters', price: 1799, category: 'Winterwear', image: '' },
 
      // Accessories
      { id: 141, name: 'Leather Crossbody Bag', price: 1999, category: 'Accessories', image: '' },
@@ -132,6 +137,11 @@ const products = [
      { id: 148, name: 'Hoop Earrings Set', price: 699, category: 'Accessories', image: '' },
      { id: 149, name: 'Crystal Embellished Hair Clip', price: 599, category: 'Accessories', image: '' },
      { id: 150, name: 'Classic Analog Watch', price: 2499, category: 'Accessories', image: '' },
+     { id: 166, name: 'Crystal Embellished Clutch', price: 1599, category: 'Accessories', image: 'https://cdnc.lystit.com/photos/b044-2014/04/16/gedebe-green-crystal-embellished-clutch-product-1-19250465-2-204529044-normal.jpeg' },
+     { id: 167, name: 'Chiffon Wrap Dress', price: 1799, category: 'Dress', image: 'https://www.jasminebridal.com/productimg/bridesmaid-dresses-B233054-F.jpg' },
+     { id: 168, name: 'Silk Pocket Square', price: 499, category: 'Accessories', image: 'https://www.studiosuits.com/cdn/shop/files/harristweedscotgreensuitlok_3_1445x.jpg?v=1703054025' },
+     { id: 169, name: 'Cocktail Party Necklace', price: 899, category: 'Accessories', image: 'https://i.pinimg.com/originals/bf/50/97/bf509749b0c102204164c57f6818304b.jpg' },
+     { id: 172, name: 'Summer Straw Hats', price: 899, category: 'Accessories', image: '' },
 
      // Footwear
      { id: 151, name: 'White Leather Sneakers', price: 2999, category: 'Footwear', image: '' },
@@ -144,42 +154,45 @@ const products = [
      { id: 158, name: 'Embellished Pumps', price: 2399, category: 'Footwear', image: '' },
      { id: 159, name: 'Lace-Up Hiking Boots', price: 2799, category: 'Footwear', image: '' },
      { id: 160, name: 'Knitted Slip-On Shoes', price: 1499, category: 'Footwear', image: '' },
-
-     // Seasonal Specials
-     { id: 171, name: 'Christmas Themed Sweaters', price: 1799, category: 'Seasonal Specials', image: '' },
-     { id: 172, name: 'Summer Straw Hats', price: 899, category: 'Seasonal Specials', image: '' },
-     { id: 173, name: 'Rainproof Trench Coats', price: 2499, category: 'Seasonal Specials', image: '' },
-     { id: 174, name: 'Fall Leather Boots', price: 2999, category: 'Seasonal Specials', image: '' },
-     { id: 175, name: 'Halloween Printed Tees', price: 799, category: 'Seasonal Specials', image: '' },
-     { id: 176, name: 'Patriotic Print Tops', price: 1099, category: 'Seasonal Specials', image: '' },
-     { id: 177, name: 'Floral Sundresses', price: 1499, category: 'Seasonal Specials', image: '' },
-     { id: 178, name: 'New Year’s Eve Dresses', price: 2499, category: 'Seasonal Specials', image: '' },
-     { id: 179, name: 'Valentine’s Day Red Shirts', price: 999, category: 'Seasonal Specials', image: '' },
-     { id: 180, name: 'Spring Pastel Hoodies', price: 1599, category: 'Seasonal Specials', image: '' },
+     { id: 170, name: 'Stiletto Heels', price: 2599, category: 'Footwear', image: 'https://i.pinimg.com/originals/31/6e/67/316e677a11e40837bdf200bbb74422eb.jpg' },
+     { id: 174, name: 'Fall Leather Boots', price: 2999, category: 'Footwear', image: '' },
  
-     // Partywear
-     { id: 161, name: 'Sequined Evening Dress', price: 3999, category: 'Partywear', image: '' },
-     { id: 162, name: 'Velvet Blazer', price: 2499, category: 'Partywear', image: '' },
-     { id: 163, name: 'Satin Maxi Gown', price: 3499, category: 'Partywear', image: '' },
-     { id: 164, name: 'Glitter Bodycon Dress', price: 2199, category: 'Partywear', image: '' },
-     { id: 165, name: 'Metallic Midi Skirt', price: 1499, category: 'Partywear', image: '' },
-     { id: 166, name: 'Crystal Embellished Clutch', price: 1599, category: 'Partywear', image: '' },
-     { id: 167, name: 'Chiffon Wrap Dress', price: 1799, category: 'Partywear', image: '' },
-     { id: 168, name: 'Silk Pocket Square', price: 499, category: 'Partywear', image: '' },
-     { id: 169, name: 'Beaded Necklace', price: 899, category: 'Partywear', image: '' },
-     { id: 170, name: 'Stiletto Heels', price: 2599, category: 'Partywear', image: '' },
-    
+     //Blazer
+     { id: 162, name: 'Velvet Blazer', price: 2499, category: 'Coat & Blazers', image: 'https://i.pinimg.com/originals/35/02/b6/3502b66530ca528fcdbe843feddc9233.jpg' },
+     { id: 173, name: 'Rainproof Trench Coats', price: 2499, category: 'Coat & Blazers', image: '' },
+     { id: 189, name: 'Classic Black Blazer', price: 3299, category: 'Coat & Blazers', image: 'https://example.com/images/classic-black-blazer.jpg' },
+     { id: 190, name: 'Slim Fit Grey Blazer', price: 2799, category: 'Coat & Blazers', image: 'https://example.com/images/slim-fit-grey-blazer.jpg' },
+     { id: 191, name: 'Formal Navy Blazer', price: 3099, category: 'Coat & Blazers', image: 'https://example.com/images/formal-navy-blazer.jpg' },
+     { id: 192, name: 'Wool Trench Coat', price: 4599, category: 'Coat & Blazers', image: 'https://example.com/images/wool-trench-coat.jpg' },
+     { id: 193, name: 'Checkered Blazer', price: 2499, category: 'Coat & Blazers', image: 'https://example.com/images/checkered-blazer.jpg' },
+     { id: 194, name: 'Double-Breasted Trench Coat', price: 3999, category: 'Coat & Blazers', image: 'https://example.com/images/double-breasted-trench-coat.jpg' },
+     { id: 195, name: 'Casual Linen Blazer', price: 2199, category: 'Coat & Blazers', image: 'https://example.com/images/casual-linen-blazer.jpg' },
+     { id: 196, name: 'Charcoal Textured Blazer', price: 3499, category: 'Coat & Blazers', image: 'https://example.com/images/charcoal-textured-blazer.jpg' },
+
+     //Gown
+     { id: 163, name: 'Satin Maxi Gown', price: 3499, category: 'Gown', image: 'https://i.etsystatic.com/18771955/r/il/5d4471/3111873082/il_1140xN.3111873082_igq5.jpg' },
+     { id: 197, name: 'Off-Shoulder Evening Gown', price: 4799, category: 'Gown', image: 'https://example.com/images/off-shoulder-evening-gown.jpg' },
+     { id: 201, name: 'Velvet Ball Gown', price: 5599, category: 'Gown', image: 'https://example.com/images/velvet-ball-gown.jpg' },
+     { id: 202, name: 'A-Line Chiffon Gown', price: 4199, category: 'Gown', image: 'https://example.com/images/a-line-chiffon-gown.jpg' },
+     { id: 203, name: 'Mermaid Fit Gown', price: 4899, category: 'Gown', image: 'https://example.com/images/mermaid-fit-gown.jpg' },
+     { id: 204, name: 'Sequin Party Gown', price: 5699, category: 'Gown', image: 'https://example.com/images/sequin-party-gown.jpg' },
+     { id: 205, name: 'Lace Bridal Gown', price: 9999, category: 'Gown', image: 'https://example.com/images/lace-bridal-gown.jpg' },
+     { id: 206, name: 'Ruffled Gown with Train', price: 6399, category: 'Gown', image: 'https://example.com/images/ruffled-gown-with-train.jpg' },
+     { id: 207, name: 'High-Slit Evening Gown', price: 4299, category: 'Gown', image: 'https://example.com/images/high-slit-evening-gown.jpg' },
+     { id: 208, name: 'Floral Embroidered Gown', price: 4999, category: 'Gown', image: 'https://example.com/images/floral-embroidered-gown.jpg' },
+     
      // Ethnic Wear
-     { id: 91, name: 'Embroidered Kurta Set', price: 2499, category: 'Ethnic Wear', image: '' },
-     { id: 92, name: 'Anarkali Gown', price: 2999, category: 'Ethnic Wear', image: '' },
-     { id: 93, name: 'Cotton Printed Saree', price: 1799, category: 'Ethnic Wear', image: '' },
-     { id: 94, name: 'Banarasi Silk Dupatta', price: 1499, category: 'Ethnic Wear', image: '' },
-     { id: 95, name: 'Brocade Lehenga Set', price: 3999, category: 'Ethnic Wear', image: '' },
-     { id: 96, name: 'Kurta with Churidar Pants', price: 2299, category: 'Ethnic Wear', image: '' },
-     { id: 97, name: 'Angrakha Style Tunic', price: 1899, category: 'Ethnic Wear', image: '' },
-     { id: 98, name: 'Floral Palazzo Suit', price: 2599, category: 'Ethnic Wear', image: '' },
-     { id: 99, name: 'Jacket Style Sherwani', price: 4999, category: 'Ethnic Wear', image: '' },
-     { id: 100, name: 'Handwoven Jute Saree', price: 1999, category: 'Ethnic Wear', image: '' },
+     { id: 91, name: 'Embroidered Kurta Set', price: 2499, category: 'Ethnic Wear', image: 'https://th.bing.com/th/id/OIP.kiUNZvLhlwMMMKSfIUErBAHaLH?w=640&h=960&rs=1&pid=ImgDetMain' },
+     { id: 92, name: 'Anarkali Gown', price: 2999, category: 'Ethnic Wear', image: 'https://i.pinimg.com/originals/e3/b9/e0/e3b9e0a0b5ba838bab755e345587fb96.jpg' },
+     { id: 93, name: 'Cotton Printed Saree', price: 1799, category: 'Ethnic Wear', image: 'https://cdn.sareeka.com/image/cache/data2021/cotton-floral-print-printed-saree-185662-1000x1375.jpg' },
+     { id: 94, name: 'Banarasi Silk Dupatta', price: 1499, category: 'Ethnic Wear', image: 'https://www.dupattabazaar.com/cdn/shop/files/DB3839BOG_4_1024x1024.jpg?v=1687778202' },
+     { id: 95, name: 'Brocade Lehenga Set', price: 3999, category: 'Ethnic Wear', image: 'https://i.pinimg.com/originals/c6/ca/b2/c6cab2afc1c2e898440d64b033ebb71b.jpg' },
+     { id: 96, name: 'Kurta with Churidar Pants', price: 2299, category: 'Ethnic Wear', image: 'https://www.biba.in/on/demandware.static/-/Sites-biba-product-catalog/default/dw13be5abb/images/aw23/skdasrtd2802eaw23turq_7.jpg' },
+     { id: 97, name: 'Angrakha Style Tunic', price: 1899, category: 'Ethnic Wear', image: 'https://i.etsystatic.com/27398764/r/il/7d4237/3770486273/il_794xN.3770486273_evvk.jpg' },
+     { id: 98, name: 'Floral Palazzo Suit', price: 2599, category: 'Ethnic Wear', image: 'https://cdn.shopify.com/s/files/1/0182/1471/5470/products/SAJAWAT-735A_650x.jpg?v=1571717774' },
+     { id: 99, name: 'Jacket Style Sherwani', price: 4999, category: 'Ethnic Wear', image: 'https://manyavar.scene7.com/is/image/manyavar/Manyavar2470_05-12-2022-08-05?wid=1244' },
+     { id: 100, name: 'Handwoven Jute Saree', price: 1999, category: 'Ethnic Wear', image: 'https://assets0.mirraw.com/images/6822148/image_zoom.jpeg?1551878677' },
+     { id: 100, name: 'Long Kurti', price: 1599, category: 'Ethnic Wear', image: 'https://i.pinimg.com/originals/96/5f/67/965f67b1596b88899e9df7b7c409e52a.jpg' },
      
      // Swimwear
      { id: 121, name: 'High-Waisted Bikini Set', price: 1499, category: 'Swimwear', image: 'https://thewearness.com/cdn/shop/products/197highwaistbikiniblack_1024x1024.jpg?v=1681403178' },
@@ -204,6 +217,10 @@ const products = [
      { id: 68, name: 'Denim Shirt Dress', price: 1799, category: 'Dresses', image: 'https://i.pinimg.com/originals/a2/21/e1/a221e1cafbc9c06d4e4943a4555cd1a5.jpg' },
      { id: 69, name: 'Pleated Midi Dress', price: 2099, category: 'Dresses', image: 'https://cdnd.lystit.com/photos/ad12-2016/03/15/topshop-dusty-pink-metallic-lame-pleated-midi-dress-pink-product-4-441986367-normal.jpeg' },
      { id: 70, name: 'Boho Style Tiered Dress', price: 1699, category: 'Dresses', image: 'https://shop.gabrielleparker.com/wp-content/uploads/2022/09/Boho-Tiered-dress-in-Ginger-Gold-mix-2-scaled.jpg' },
+     { id: 161, name: 'Sequined Evening Dress', price: 3999, category: 'Dress', image: 'https://images-na.ssl-images-amazon.com/images/I/81uU6X3LvDL.jpg' },
+     { id: 164, name: 'Glitter Bodycon Dress', price: 2199, category: 'Dress', image: 'https://www.lulus.com/images/product/xlarge/7737761_1591336.jpg?w=560' },
+     { id: 177, name: 'Floral Sundresses', price: 1499, category: 'Dress', image: 'https://i.etsystatic.com/28580130/r/il/c78665/3229004528/il_1588xN.3229004528_rgyz.jpg' },
+     { id: 178, name: 'New Year’s Eve Dresses', price: 2499, category: 'Dress', image: '' },
      { id: 185, name: 'Neckline Ruched Midi Dress', price: 1999, category:'Dresses', image:'https://dtdz5ym1pqo86.cloudfront.net/sites/files/mikayla/images/products/202401/dsc00187-enhanced-nr.jpg'},
      { id: 186, name: 'Long Sleeve Midi Dress', price: 1999, category:'Dresses', image:'https://shop.gabrielleparker.com/wp-content/uploads/2022/11/HOLLY-DRESS-GOLD-FLOWER-BLACK-SIDE-FULL-1024x1536.jpg'},
      { id: 187, name: 'Boho Style Maxi Dress', price: 1899, category: 'Dresses', image: 'https://www.lulus.com/images/product/xlarge/5333796_978262.jpg?w=560' },
@@ -220,6 +237,7 @@ const products = [
      { id: 78, name: 'Asymmetrical Hem Skirt', price: 1799, category: 'Skirts', image: 'https://th.bing.com/th/id/OIP.k7aqWRsxjvsoYnnyprqZbgHaJ4?rs=1&pid=ImgDetMain' },
      { id: 79, name: 'Knit Bodycon Skirt', price: 1299, category: 'Skirts', image: 'https://th.bing.com/th/id/OIP.dltgwuYQu9dbITylP3XGgAHaI4?rs=1&pid=ImgDetMain' },
      { id: 80, name: 'Floral Printed Midi Skirt', price: 1699, category: 'Skirts', image: 'https://www.lulus.com/images/product/xlarge/3488270_685242.jpg' },
+     { id: 165, name: 'Metallic Midi Skirt', price: 1499, category: 'Skirt', image: 'https://th.bing.com/th/id/OIP.1mp87h2mZ8J4OtQL4M4xYQHaLH?rs=1&pid=ImgDetMain' },
      { id: 181, name: 'Corduroy Mini Skirt', price: 1599, category:'Skirts', image:'https://i.pinimg.com/originals/75/cc/88/75cc88a63b6b0b275ba5fc8ab0658ff9.jpg'},
      { id: 182, name: 'Faux Suede Mini Skirt', price: 1399, category:'Skirts', image:'https://www.lulus.com/images/product/xlarge/3014050_536842.jpg?w=375&hdpi=1'},
      { id: 183, name: 'Floral Print Pleated Skirt', price: 1199, category:'Skirts', image:'https://i.pinimg.com/736x/68/b2/23/68b223e26606cf38fe337cce41caca5c--floral-print-skirt-floral-skirts.jpg'},
