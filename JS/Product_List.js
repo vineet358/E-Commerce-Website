@@ -66,17 +66,17 @@ const products = [
      { id: 54, name: 'Oversized Hooded Jacket', price: 2299, category: 'Jackets', image: 'https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/24979448/2024/10/17/b650a67d-2e5d-40d4-abc0-583ed7f490a91729151693756-NOBERO-Men-Oversized-Solid-Hooded-Sweatshirt-502172915169319-1.jpg' },
      { id: 55, name: 'Cropped Bomber Jacket', price: 1799, category: 'Jackets', image: 'https://nolabels.in/cdn/shop/files/DSC01106_9cf2cef9-bed9-4de7-93f9-734c220af19e.jpg?v=1728371249&width=1080' },
      // Hoodies & Sweatshirts
-     { id: 56, name: 'Ribbed Hem Crewneck Sweatshirt', price: 1299, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 57, name: 'Tie-Dye Pullover Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 58, name: 'Embroidered Logo Sweatshirt', price: 1599, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 59, name: 'Kangaroo Pocket Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 60, name: 'Thermal Knit Hoodie', price: 1699, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 61, name: 'Pullover Fleece Hoodie', price: 1299, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 62, name: 'Zip-Up Sports Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 63, name: 'Oversized Graphic Hoodie', price: 1599, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 64, name: 'Color Block Hoodie', price: 1399, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 65, name: 'Cropped Sweatshirt', price: 1199, category: 'Hoodies & Sweatshirts', image: '' },
-     { id: 66, name: 'Spring Pastel Hoodies', price: 1599, category: 'Hoodies & Sweatshirts', image: '' },
+      {id: 56, name: 'Ribbed Hem Crewneck Sweatshirt', price: 1299, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKg4_3PrYPayWhxFZGWc4RqwRYxUrGgH-RIg&s' },
+     { id: 57, name: 'Tie-Dye Pullover Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTrYmhJMyT6uwqrYyDQlhkuDYXQaaSimEug&s' },
+     { id: 58, name: 'Embroidered Logo Sweatshirt', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://shop.wimbledon.com/media/catalog/product/cache/cee6bc8b62379782781ed8712f4cd106/w/o/womens-logo-sweatshirt-white-23ww03w-front.png' },
+     { id: 59, name: 'Kangaroo Pocket Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy09Pns5e_60407iEtAwnDyWly6Z4VrrBklg&s' },
+     { id: 60, name: 'Thermal Knit Hoodie', price: 1699, category: 'Hoodies & Sweatshirts', image: 'https://www.jamesperse.com/cdn/shop/files/MBTK3472_DAP_4501_360x.progressive.jpg?v=1709078495' },
+     { id: 61, name: 'Pullover Fleece Hoodie', price: 1299, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PuRen6jM3OfBSn2twI-l7pmmey3FTLCtvA&s' },
+     { id: 62, name: 'Zip-Up Sports Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://images-cdn.ubuy.co.in/65e435d4bfea5b294c3ce98d-men-zipper-running-hoodies-sport-jackets.jpg' },
+     { id: 63, name: 'Oversized Graphic Hoodie', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgdpfRHeoe_1M-DG2alBORlPNaziT9oA7KA&s' },
+     { id: 64, name: 'Color Block Hoodie', price: 1399, category: 'Hoodies & Sweatshirts', image: 'https://www.snitch.co.in/cdn/shop/files/4MSWH9858-01-M7.jpg?v=1700070709&width=1080' },
+     { id: 65, name: 'Cropped Sweatshirt', price: 1199, category: 'Hoodies & Sweatshirts', image: 'https://images.bestsellerclothing.in/data/only/13-july-2023/248503501_g0.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto' },
+     { id: 66, name: 'Spring Pastel Hoodies', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://i.pinimg.com/736x/cd/64/51/cd64512b840b28eb84c17581e3d7c49c.jpg' },
 
 
       // Skirts
