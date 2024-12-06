@@ -138,17 +138,16 @@ const products = [
      { id: 115, name: 'Stretchable TrackSuit', price: 1099, category: 'Activewear', image: 'https://i.pinimg.com/originals/91/cd/12/91cd1255d78a73fc5a3702bd242aa748.png' },
 
      // Sleepwear
-     { id: 116, name: 'Graphic Print Night Tee', price: 899, category: 'Sleepwear', image: '' },
-     { id: 117, name: 'Short-Sleeve Pajama Dress', price: 1399, category: 'Sleepwear', image: '' },
-     { id: 118, name: 'Velvet Robe Set', price: 1799, category: 'Sleepwear', image: '' },
-     { id: 119, name: 'Button-Up Pajama Shirt', price: 1099, category: 'Sleepwear', image: '' },
-     { id: 120, name: 'Thermal Long Johns', price: 1299, category: 'Sleepwear', image: '' },
-     { id: 121, name: 'Cotton Pajama Set', price: 1299, category: 'Sleepwear', image: '' },
-     { id: 122, name: 'Satin Nightgown', price: 1999, category: 'Sleepwear', image: '' },
-     { id: 123, name: 'Flannel Sleep Shirt', price: 999, category: 'Sleepwear', image: '' },
-     { id: 124, name: 'Fleece Lounge Pants', price: 1199, category: 'Sleepwear', image: '' },
-     { id: 125, name: 'Silk Camisole Set', price: 2499, category: 'Sleepwear', image: '' },
-
+     { id: 116, name: 'Graphic Print Night Tee', price: 899, category: 'Sleepwear', image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/25285882/2023/9/29/6c5cdf3f-459f-4b67-86ea-7cf96e79495f1696006237042JulyWomenWhiteYellowPrintedNightsuit1.jpg' },
+     { id: 117, name: 'Short-Sleeve Pajama Dress', price: 1399, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V9u8UJbwIXt6XRurFTiqRnkPgcRnBdX27w&s' },
+     { id: 118, name: 'Velvet Robe Set', price: 1799, category: 'Sleepwear', image: 'https://bocancouture.com/cdn/shop/files/RS081-19112PWDR-635PWDR-1.jpg?v=1709810420&width=1500' },
+     { id: 119, name: 'Button-Up Pajama Shirt', price: 1099, category: 'Sleepwear', image: 'https://media.boohoo.com/i/boohoo/gzz60644_black_xl_2/female-jersey-knit-short-sleeve-button-up-pajama-shirt' },
+     { id: 120, name: 'Thermal Long Johns', price: 1299, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhU7kc0UJ9cXSNzTD5ahXydYCVmP7Qeed-SA&s' },
+     { id: 121, name: 'Cotton Pajama Set', price: 1299, category: 'Sleepwear', image: 'https://www.perofil.com/media/catalog/product/8/0/8001611873221.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1472&width=1024&canvas=1024:1472' },
+     { id: 122, name: 'Satin Nightgown', price: 1999, category: 'Sleepwear', image: 'https://www.privatelives.in/cdn/shop/products/Final1_1000x.jpg?v=1603269061' },
+     { id: 123, name: 'Flannel Sleep Shirt', price: 999, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkW2gt_YbAx_p7KN_iJGZShOAgurYKkZP0uw&s' },
+     { id: 124, name: 'Fleece Lounge Pants', price: 1199, category: 'Sleepwear', image: 'https://images-cdn.ubuy.co.in/65380f9d4e9f091ebb12bcc4-dg-hill-1pack-or-3pack-mens-pj-pajama.jpg' },
+     { id: 125, name: 'Silk Camisole Set', price: 2499, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchJCohyN-inNFYPX_inpN56IAc3HimPzKvQ&s' },
      // Winterwear
      { id: 136, name: 'Fleece Joggers', price: 1399, category: 'Winterwear', image: '' },
      { id: 137, name: 'Chunky Oversized Scarf', price: 899, category: 'Winterwear', image: '' },
