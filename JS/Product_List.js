@@ -12,7 +12,7 @@ const products = [
      { id: 9, name: 'Longline Urban Tee', price: 799, category: 'T-Shirts', image: 'https://i.pinimg.com/originals/60/2e/11/602e112fce3bd80eabc3853f5532f43b.jpg' },
      { id: 10, name: 'Pocketed Basic Tee', price: 499, category: 'T-Shirts', image: 'https://thedailylab.co/cdn/shop/files/Screenshot2023-06-02at3.19.48PM_1500x.png?v=1688442424' },
      { id: 175, name: 'Halloween Printed Tees', price: 1927, category: 'T-Shirts', image: 'https://i.etsystatic.com/44225587/r/il/603740/6322989657/il_1588xN.6322989657_3vrr.jpg' },
-     { id: 179, name: 'Valentine’s Day Red Shirts', price: 999, category: 'T-Shirts', image: 'https://th.bing.com/th/id/OIP.2WppdrcL19narWELioGdngHaJ2?rs=1&pid=ImgDetMain' },
+     { id: 179, name: 'Valentine’s Day Shirts', price: 999, category: 'T-Shirts', image: 'https://th.bing.com/th/id/OIP.2WppdrcL19narWELioGdngHaJ2?rs=1&pid=ImgDetMain' },
      { id: 231, name: 'Athletic Fit Tee', price: 2999, category: 'T-Shirts', image: 'https://cdn.shopify.com/s/files/1/1860/2387/files/Crew_Neck-type.jpg?v=1723010734' },
 
      // Shirts
@@ -139,12 +139,13 @@ const products = [
      { id: 146, name: 'Studded Leather Belt', price: 799, category: 'Accessories', image: '' },
      { id: 147, name: 'Faux Leather Wallet', price: 999, category: 'Accessories', image: '' },
      { id: 148, name: 'Hoop Earrings Set', price: 699, category: 'Accessories', image: '' },
+     { id: 235, name: 'Chain Earrings Set', price: 899, category: 'Accessories', image: 'https://img.east2global.com/imgs/goods/2023/04/19/dfb53c70-64e9-4f77-b6df-6c17d27897ce.jpg' },
      { id: 149, name: 'Crystal Embellished Hair Clip', price: 599, category: 'Accessories', image: '' },
      { id: 150, name: 'Classic Analog Watch', price: 2499, category: 'Accessories', image: '' },
      { id: 166, name: 'Crystal Embellished Clutch', price: 1599, category: 'Accessories', image: 'https://cdnc.lystit.com/photos/b044-2014/04/16/gedebe-green-crystal-embellished-clutch-product-1-19250465-2-204529044-normal.jpeg' },
      { id: 168, name: 'Silk Pocket Square', price: 499, category: 'Accessories', image: 'https://www.studiosuits.com/cdn/shop/files/harristweedscotgreensuitlok_3_1445x.jpg?v=1703054025' },
-     { id: 169, name: 'Cocktail Party Necklace', price: 899, category: 'Accessories', image: 'https://i.pinimg.com/originals/bf/50/97/bf509749b0c102204164c57f6818304b.jpg' },
-     { id: 172, name: 'Summer Straw Hats', price: 899, category: 'Accessories', image: '' },
+     { id: 169, name: 'Cocktail Party Necklace', price: 899, category: 'Accessories', image: 'https://blingvine.com/cdn/shop/articles/katherine_pearl_necklace_set_1500x.JPG?v=1636563598' },
+     { id: 172, name: 'Summer Straw Hats', price: 899, category: 'Accessories', image: 'https://i.pinimg.com/736x/2b/d1/45/2bd145aa8d7590626ba1ac7203883dd6.jpg' },
 
      // Footwear
      { id: 151, name: 'White Leather Sneakers', price: 2999, category: 'Footwear', image: '' },
