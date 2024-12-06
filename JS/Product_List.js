@@ -115,15 +115,15 @@ const products = [
      { id: 93, name: 'White Leather Sneakers', price: 2999, category: 'Footwear', image: 'https://bennetic.com/wp-content/uploads/2024/02/IMG_4559-1.jpg' },
      { id: 94, name: 'Suede Loafers', price: 2199, category: 'Footwear', image: 'https://cdn.shopify.com/s/files/1/1065/4584/files/worn_55701032-bcab-4f05-80c6-49da283f3508.jpg?v=1727425916' },
      { id: 95, name: 'Chunky Platform Boots', price: 3499, category: 'Footwear', image: 'https://images-static.nykaa.com/media/catalog/product/b/8/b800e77NB_SHOET00014482_1.jpg?tr=w-500' },
-     { id: 96, name: 'Flip-Flop Sandals', price: 499, category: 'Footwear', image: 'https://i.pinimg.com/736x/2f/5d/9f/2f5d9f39b76e3c7dd769ebf03f44e778.jpg' },
+     { id: 96, name: 'Flip-Flop Sandals', price: 499, category: 'Footwear', image: 'https://images-cdn.ubuy.co.in/633addb3ecf317552428ffe5-ubuy-online-shopping.jpg' },
      { id: 97, name: 'Strappy Gladiator Flats', price: 1299, category: 'Footwear', image: 'https://images-static.nykaa.com/media/catalog/product/6/6/66db3f8990572BLACK_1.jpg?tr=w-500' },
      { id: 98, name: 'Embellished Pumps', price: 2399, category: 'Footwear', image: 'https://www.shoetree.io/cdn/shop/files/RGAW23-8687Q-31_OFF_WHITE_1_b2a01812-9627-4fe7-b156-9882ed01c27f.jpg?v=1710863928' },
      { id: 99, name: 'Lace-Up Hiking Boots', price: 2799, category: 'Footwear', image: 'https://urban-planet.com/cdn/shop/files/087161381520-01-0_84c4b3ed-5c91-459d-a2a2-48fed4800c78_420x.jpg?v=1725028331' },
      { id: 100, name: 'Knitted Slip-On Shoes', price: 1499, category: 'Footwear', image: 'https://images-cdn.ubuy.co.in/654a532e58be7d03f23eacb5-audeban-women-slip-on-sock-sneakers.jpg' },
      { id: 101, name: 'Slip-On Canvas Shoes', price: 1299, category: 'Footwear', image: 'https://fausto.in/cdn/shop/products/FST_KI-8825_OLIVE_1-1_MOOD_400x.jpg?v=1679580827' },
      { id: 102, name: 'Open-Toe Block Heels', price: 1799, category: 'Footwear', image: 'https://www.lulus.com/images/product/xlarge/9061401_1785676.jpg?w=375&hdpi=1' },
-     { id: 103, name: 'Stiletto Heels', price: 2599, category: 'Footwear', image: 'https://i.pinimg.com/originals/31/6e/67/316e677a11e40837bdf200bbb74422eb.jpg' },
-     { id: 104, name: 'Fall Leather Boots', price: 2999, category: 'Footwear', image: 'https://www.instyle.com/thmb/g9mHUVUVxWT0mtJTf8TtHGtjP94=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/110123-black-boots-lead-8272cf23c8e342b887ff8d87c0afb979.jpg' },
+     { id: 103, name: 'Stiletto Heels', price: 2599, category: 'Footwear', image: 'https://cdn.staticans.com/image/tr:e-sharpen-01,h-1440,w-1920,cm-pad_resize/data/Regal-Shoes/15-July-2023/9360896_2.jpg' },
+     { id: 104, name: 'Fall Leather Boots', price: 2999, category: 'Footwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWpTz0NhvMniF1UtleQfTPQrvIarb2flGbA&s' },
      
      
      // Activewear
