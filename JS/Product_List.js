@@ -99,7 +99,7 @@ const products = [
      // Shorts
      { id: 82, name: 'Classic Denim Shorts', price: 999, category: 'Shorts', image: 'https://www.target.com.au/medias/static_content/product/images/large/05/28/A1520528.jpg' },
      { id: 83, name: 'High-Waisted Mom Shorts', price: 1199, category: 'Shorts', image: 'https://media.nastygal.com/i/nastygal/agg71493_black_xl/womens-black-denim-high-waisted-mom-shorts/?w=1070&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' },
-     { id: 85, name: 'Paperbag Belted Shorts', price: 1099, category: 'Shorts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbe2CQaeeY2pGygJB98qpqaWdRvf8V0bzhlQ&s' },
+     { id: 85, name: 'Paperbag Belted Shorts', price: 1099, category: 'Shorts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExj-M0klOiO1kFAzQWfM39kTp212NDUnQJA&s' },
      { id: 86, name: 'Pleated Formal Shorts', price: 1299, category: 'Shorts', image: 'https://www.mrporter.com/variants/images/1647597308896890/ou/w2000_q60.jpg' },
      { id: 126, name: 'Satin Lounge Shorts', price: 999, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.IG6XmBYQYNllDYDgCCRriAHaLH?rs=1&pid=ImgDetMain' },
      { id: 87, name: 'Cuffed Shorts', price: 999, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.ERccUlcPr2chRz5GNEzxcAHaLH?rs=1&pid=ImgDetMain' },
@@ -164,7 +164,7 @@ const products = [
 
      // Accessories
      { id: 148, name: 'Leather Crossbody Bag', price: 1799, category: 'Accessories', image: 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/090572/01/mod01/fnd/IND/fmt/png/Classics-Archive-Unisex-Cross-Body-Bag' },
-     { id: 149, name: 'Fedora Hat', price: 899, category: 'Accessories', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOMyTS9trHcjmWTjISWfmfZUDoUDodGUrTQ&s' },
+     { id: 149, name: 'Fedora Hat', price: 899, category: 'Accessories', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd7tXvfpbx-pYptVeJNcJGgfUH6kmkJdh-Ag&s' },
      { id: 150, name: 'Chunky Knit Scarf', price: 699, category: 'Accessories', image: 'https://i.pinimg.com/originals/a7/58/27/a75827ee41ed2e5d11ea9d22336fa780.jpg' },
      { id: 151, name: 'Metal Frame Sunglasses', price: 1499, category: 'Accessories', image: 'https://th.bing.com/th/id/OIP.mBw2SMdyonGwaqUEJwHt1AHaLH?rs=1&pid=ImgDetMain' },
      { id: 152, name: 'Minimalist Gold Necklace', price: 5299, category: 'Accessories', image: 'https://th.bing.com/th/id/OIP.jU-pwCKiuahda5JwaZkjSwHaHa?rs=1&pid=ImgDetMain' },
