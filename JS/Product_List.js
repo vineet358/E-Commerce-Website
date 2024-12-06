@@ -1,8 +1,8 @@
 const products = [
      // T-Shirts
-     { id: 1, name: 'Classic White Cotton Tee', price: 499, category: 'T-Shirts', image: 'https://tse2.mm.bing.net/th?id=OIP.vQYmUfgCU4PQtZq4UARj_gAAAA&pid=Api&P=0&h=180' },
+     { id: 1, name: 'Classic White Cotton Tee', price: 499, category: 'T-Shirts', image: 'https://www.myntra.com/lounge-tshirts/jack+%26+jones/jack--jones-men-white-solid-cotton-lounge-t-shirt/18389712/buy?utm_source=dms_bing_shopping&utm_medium=bing_cpc_shopping&utm_campaign=Bing_Apparel_ShoppingCampaign&msclkid=5caabfc252df134bcb3ed8902cb87801&utm_term=4578503896434795&utm_content=Loungewear%20and%20Nightwear-%20Lounge%20shorts' },
      { id: 2, name: 'Graphic Printed Tee', price: 699, category: 'T-Shirts', image: 'https://images.bewakoof.com/t540/men-s-white-graphic-printed-t-shirt-541236-1662718510-2.jpg' },
-     { id: 3, name: 'Oversized Retro Tee', price: 799, category: 'T-Shirts', image: 'https://sp.yimg.com/ib/th?id=OPAC.CplVJjziI08B7A474C474&o=5&pid=21.1&w=160&h=105' },
+     { id: 3, name: 'Oversized Retro Tee', price: 799, category: 'T-Shirts', image: 'https://www.caelumgreene.com/cdn/shop/files/Joah-Brown-Oversized-Vintage-Tee-Fog-Details-Front-2_800x.jpg?v=1700038077' },
      { id: 4, name: 'Color Block Tee', price: 649, category: 'T-Shirts', image: 'https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,w_800,c_scale/v1/NA/Style/ECOMM/X3RP22KC4M2-JBLK' },
      { id: 5, name: 'Tie-Dye Tee', price: 899, category: 'T-Shirts', image: 'https://i5.walmartimages.com/asr/93286917-b7d7-4122-9b62-2e58a578cf89.0c1a492aad9e73d1d06d9c8853ccfe8d.jpeg' },
      { id: 6, name: 'Striped Casual Tee', price: 599, category: 'T-Shirts', image: 'https://i.pinimg.com/originals/ff/3e/04/ff3e0475b58243743a51c1bf6da3e501.jpg' },
@@ -10,8 +10,8 @@ const products = [
      { id: 8, name: 'V-Neck Summer Tee', price: 549, category: 'T-Shirts', image: 'https://i5.walmartimages.com/asr/2a415388-83ef-4b29-acf5-d96ddc0b70d5_1.c760a288a11ce030d8c6de9b45cc8a16.jpeg' },
      { id: 9, name: 'Pocketed Basic Tee', price: 499, category: 'T-Shirts', image: 'https://thedailylab.co/cdn/shop/files/Screenshot2023-06-02at3.19.48PM_1500x.png?v=1688442424' },
      { id: 10, name: 'Longline Urban Tee', price: 799, category: 'T-Shirts', image: 'https://i.pinimg.com/originals/60/2e/11/602e112fce3bd80eabc3853f5532f43b.jpg' },
-     { id: 175, name: 'Halloween Printed Tees', price: 799, category: 'T-Shirts', image: '' },
-     { id: 179, name: 'Valentine’s Day Red Shirts', price: 999, category: 'T-Shirts', image: '' },
+     { id: 175, name: 'Halloween Printed Tees', price: 799, category: 'T-Shirts', image: 'https://i5.walmartimages.com/asr/d8ec3a8f-0475-41e6-8d40-71ef2024b390_1.c82c107b144b9d969ac6edb6209126c6.png' },
+     { id: 179, name: 'Valentine’s Day Red Shirts', price: 999, category: 'T-Shirts', image: 'https://images-na.ssl-images-amazon.com/images/I/61dSo%2BRFcLL._AC_UL1200_.jpg' },
 
      // Shirts
      { id: 11, name: 'Slim Fit Formal Shirt', price: 999, category: 'Shirts', image: 'https://tse3.mm.bing.net/th?id=OIP.2smO6EbmQVqr37cYtqkVXQHaJ1&pid=Api&P=0&h=180' },
