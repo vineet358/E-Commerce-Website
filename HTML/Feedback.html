@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        
+      
+         
+        body {
+            font-family: 'Arial', 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf5ec;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .message-box  {
+            max-width: 650px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 85%;
+        }
+        h1 {
+            font-family: 'Merriweather', Cambria, serif;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 1.3rem;
+            line-height: 1.6;
+            width: 100%;
+            text-align: center;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .message-box  {
+            animation: fadeIn 1s ease;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message-box  {
+            animation: fadeIn 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h1>Thank You!</h1>
+        <p>Your message has been successfully sent.<br>We’ll get back to you shortly!</p>
+    </div>
+</body>
+</html>
