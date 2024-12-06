@@ -55,18 +55,16 @@ const products = [
      { id: 127, name: 'Satin Trousers', price: 1599, category: 'Trousers', image: 'https://i.pinimg.com/736x/da/0f/16/da0f16ada62ec05bd5ce626257cb54a7.jpg' },
      
      // Jackets
-     { id: 46, name: 'Longline Trench Coat', price: 3499, category: 'Jackets', image: '' },
-     { id: 47, name: 'Fleece Zip-Up Jacket', price: 1599, category: 'Jackets', image: '' },
-     { id: 48, name: 'Reversible Casual Jacket', price: 1999, category: 'Jackets', image: '' },
-     { id: 49, name: 'Varsity Letterman Jacket', price: 1899, category: 'Jackets', image: '' },
-     { id: 50, name: 'Wool-Blend Double-Breasted Coat', price: 3999, category: 'Jackets', image: '' },
-     { id: 51, name: 'Classic Denim Jacket', price: 1999, category: 'Jackets', image: '' },
-     { id: 52, name: 'Faux Leather Biker Jacket', price: 2999, category: 'Jackets', image: '' },
-     { id: 53, name: 'Quilted Winter Puffer Jacket', price: 2499, category: 'Jackets', image: '' },
-     { id: 54, name: 'Oversized Hooded Jacket', price: 2299, category: 'Jackets', image: '' },
-     { id: 55, name: 'Cropped Bomber Jacket', price: 1799, category: 'Jackets', image: '' },
-     
-
+     { id: 46, name: 'Longline Trench Coat', price: 3499, category: 'Jackets', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFK830guKuPW5uePYTt65Kt2HUYPFWyPatUA&s' },
+     { id: 47, name: 'Fleece Zip-Up Jacket', price: 1599, category: 'Jackets', image: 'https://www.sporto.in/cdn/shop/files/1_f815b5e5-032d-49f5-ab6b-5a86c246c334_1080x1440.jpg?v=1714719807' },
+     { id: 48, name: 'Reversible Casual Jacket', price: 1999, category: 'Jackets', image: 'https://images-static.nykaa.com/media/catalog/product/c/0/c0b6039MJKT00187_BROWN_1.jpg?tr=w-500' },
+     { id: 49, name: 'Varsity Letterman Jacket', price: 1899, category: 'Jackets', image: 'https://nutcaseshop.com/cdn/shop/files/NC-CUS-VARJACK-BLK-001.png?v=1704524242' },
+     { id: 50, name: 'Wool-Blend Double-Breasted Coat', price: 3999, category: 'Jackets', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsT-TUVC7gWTRczZWcZCZSngq69FZa_IUYRA&s' },
+     { id: 51, name: 'Classic Denim Jacket', price: 1999, category: 'Jackets', image: 'https://www.alamodelabel.in/cdn/shop/files/CAC1064B-887B-47A4-AFE9-E0AF3E8ABC94.jpg?v=1717500962' },
+     { id: 52, name: 'Faux Leather Biker Jacket', price: 2999, category: 'Jackets', image: 'https://d118ps6mg0w7om.cloudfront.net/media/catalog/product/1/6/fit-in/1000x1333/16-04-24_mfj-1156-r-01-black_1_mfj-1156-r-01-black.jpg' },
+     { id: 53, name: 'Quilted Winter Puffer Jacket', price: 2499, category: 'Jackets', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkeoU4_RFPCj8czR5ueoE_nIDdGEMiTVXmuA&s' },
+     { id: 54, name: 'Oversized Hooded Jacket', price: 2299, category: 'Jackets', image: 'https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/24979448/2024/10/17/b650a67d-2e5d-40d4-abc0-583ed7f490a91729151693756-NOBERO-Men-Oversized-Solid-Hooded-Sweatshirt-502172915169319-1.jpg' },
+     { id: 55, name: 'Cropped Bomber Jacket', price: 1799, category: 'Jackets', image: 'https://nolabels.in/cdn/shop/files/DSC01106_9cf2cef9-bed9-4de7-93f9-734c220af19e.jpg?v=1728371249&width=1080' },
      // Hoodies & Sweatshirts
      { id: 56, name: 'Ribbed Hem Crewneck Sweatshirt', price: 1299, category: 'Hoodies & Sweatshirts', image: '' },
      { id: 57, name: 'Tie-Dye Pullover Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: '' },
