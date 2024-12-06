@@ -249,6 +249,7 @@ const products = [
      { id: 221, name: 'Swim Trunks', price: 899, category: 'Swimwear', image: 'https://www.shoplasc.com/v3/prld.xlg?partno=17127&width=498&view=img1' },
      { id: 222, name: 'Tropical Print Swimwear', price: 999, category: 'Swimwear', image: 'https://5.imimg.com/data5/SELLER/Default/2024/4/408376898/HZ/QK/WH/6641902/3-pcs-swim-curve-plus-tropical-print-push-up-bikini-swimsuit-with-shrug-1000x1000.jpg' },
      { id: 223, name: 'Bandeau Bikini Top', price: 1199, category: 'Swimwear', image: 'https://cdnd.lystit.com/photos/2012/03/08/seafolly-orchid-seafolly-tea-rose-long-line-bandeau-bikini-top-product-1-3031247-636526010.jpeg' },
+     { id: 252, name: 'One Peice SwimSuit', price: 2999, category: 'Swimwear', image: 'https://th.bing.com/th/id/OIP.XB7mXRPlSVYVftmn2gTPwgHaHa?w=800&h=800&rs=1&pid=ImgDetMain' },
      
      // Dresses
      { id: 224, name: 'Floral Maxi Dress', price: 1799, category: 'Dresses', image: 'https://i.pinimg.com/originals/6b/78/73/6b7873b3f0f2d21e4676ca0ddb0996ee.jpg' },
