@@ -61,8 +61,7 @@ body {
      border-radius: 5px;
 }
 
-.search-bar button,
-.anchor {
+.search-bar button, .anchor, .page-button {
      padding: 10px 15px;
      background-color: #3CBF4E;
      color: white;
@@ -77,10 +76,26 @@ body {
      align-items: center;
 }
 
-.search-bar button:hover,
-.anchor:hover {
+.search-bar button:hover, .anchor:hover, .page-button:hover {
      background-color: #45a049;
 }
+
+.current-page {
+     margin: 5px;
+     padding: 8px 12px;
+     background-color: #f0f0f0;
+     border: 1px solid #ddd;
+     cursor: pointer;
+}
+ 
+.current-page:hover {
+     background-color: #ddd;
+} 
+
+.current-page {
+     font-weight: bold;
+     background-color: #ccc;
+ } 
 
 /*----------------------------------------------PRODUCT CONTAINER FORMATTING---------------------------------------------*/
 .product-container {

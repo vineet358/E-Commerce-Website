@@ -9,10 +9,22 @@ const searchInput = document.getElementById("search-input");
 const filterCategory = document.getElementById("filter-category");
 const searchButton = document.getElementById("search-button");
 
+// Define a variable to track how many products have been loaded
+let productsLoaded = 0;
+const productsPerLoad = 60; // Load 100 products at a time
+
 // Function to load products
+let currentPage = 1; // Start from the first page
+
+// Function to load products with pagination
 function loadProducts(filteredProducts = products) {
-    productList.innerHTML = ""; // Clear the product list
-    filteredProducts.forEach(product => {
+    productList.innerHTML = ""; // Clear the product list before loading new products
+
+    // Calculate the number of products to display based on the current page and products per page
+    const productsToDisplay = filteredProducts.slice((currentPage - 1) * productsPerLoad, currentPage * productsPerLoad);
+    
+    // Load only the products for the current page
+    productsToDisplay.forEach(product => {
         const productCard = document.createElement('div');
         productCard.classList.add('product-card');
 
@@ -30,9 +42,8 @@ function loadProducts(filteredProducts = products) {
         productCard.appendChild(price);
 
         const existingProduct = cart.find(item => item.product.id === product.id);
-        
+
         if (existingProduct) {
-            // If product is in the cart, show quantity controls
             const quantityContainer = document.createElement('div');
             quantityContainer.classList.add('quantity-container');
 
@@ -56,7 +67,6 @@ function loadProducts(filteredProducts = products) {
 
             productCard.appendChild(quantityContainer);
         } else {
-            // If product is not in the cart, show "Add to Cart" button
             const button = document.createElement('button');
             button.textContent = "Add to Cart";
             button.setAttribute("data-id", product.id);
@@ -66,7 +76,59 @@ function loadProducts(filteredProducts = products) {
 
         productList.appendChild(productCard);
     });
+
+    // Create pagination buttons
+    const paginationContainer = document.createElement('div');
+    paginationContainer.classList.add('pagination-container');
+
+    // Previous Page button
+    if (currentPage > 1) {
+        const prevButton = document.createElement('button');
+        prevButton.textContent = "Previous Page";
+        prevButton.classList.add("page-button");
+        prevButton.addEventListener('click', () => changePage(currentPage - 1));
+        paginationContainer.appendChild(prevButton);
+    }
+
+    // Current Page button
+    const currentPageButton = document.createElement('button');
+    currentPageButton.textContent = `${currentPage}`;
+    currentPageButton.classList.add("page-button", "current-page");
+    paginationContainer.appendChild(currentPageButton);
+
+    // Next Page button
+    if (currentPage * productsPerLoad < filteredProducts.length) {
+        const nextButton = document.createElement('button');
+        nextButton.textContent = "Next Page";
+        nextButton.classList.add("page-button");
+        nextButton.addEventListener('click', () => changePage(currentPage + 1));
+        paginationContainer.appendChild(nextButton);
+    }
+
+    productList.appendChild(paginationContainer);
 }
+
+// Function to handle page change (Previous/Next)
+function changePage(page) {
+    currentPage = page;
+    const searchInputValue = searchInput.value.toLowerCase();
+    const selectedCategory = filterCategory.value;
+    const filteredProducts = filterProducts(searchInputValue, selectedCategory);
+    loadProducts(filteredProducts);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    cart = JSON.parse(localStorage.getItem('cart')) || [];
+    populateCategories();
+    const selectedCategory = getCategoryFromURL();
+    const filteredProducts = filterProducts("", selectedCategory);
+    loadProducts(filteredProducts);
+});
+
+// Event listeners for search input and filter changes
+searchInput.addEventListener("input", debounceSearch);
+filterCategory.addEventListener("change", searchProducts);
+searchButton.addEventListener("click", searchProducts);
 
 // Populate the category dropdown dynamically
 function populateCategories() {
@@ -95,17 +157,6 @@ function getCategoryFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get('category') || 'all'; // Default to 'all' if no category is passed
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    cart = JSON.parse(localStorage.getItem('cart')) || [];
-    populateCategories();
-    const selectedCategory = getCategoryFromURL();
-    loadProducts(filterProducts("", selectedCategory));
-});
-// Event listeners for search input and filter changes
-searchInput.addEventListener("input", debounceSearch);
-filterCategory.addEventListener("change", searchProducts);
-searchButton.addEventListener("click", searchProducts);
 
 // Debounced search to avoid too many re-renders
 function debounceSearch() {
