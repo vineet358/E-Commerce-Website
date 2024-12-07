@@ -97,15 +97,15 @@ function getCategoryFromURL() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    populateCategories(); // Populate categories in the dropdown
-    const selectedCategory = getCategoryFromURL(); // Get category from URL
-    loadProducts(filterProducts("", selectedCategory)); // Load products for selected category
-
-    // Event listeners for search input and filter changes
-    searchInput.addEventListener("input", debounceSearch);
-    filterCategory.addEventListener("change", searchProducts);
-    searchButton.addEventListener("click", searchProducts);
+    cart = JSON.parse(localStorage.getItem('cart')) || [];
+    populateCategories();
+    const selectedCategory = getCategoryFromURL();
+    loadProducts(filterProducts("", selectedCategory));
 });
+// Event listeners for search input and filter changes
+searchInput.addEventListener("input", debounceSearch);
+filterCategory.addEventListener("change", searchProducts);
+searchButton.addEventListener("click", searchProducts);
 
 // Debounced search to avoid too many re-renders
 function debounceSearch() {
@@ -138,14 +138,7 @@ function addToCart(productId) {
         const existingProduct = cart.find(item => item.product.id === product.id);
         if (existingProduct) {
             existingProduct.quantity++;
-        } else {
-            // If the product is not in the cart, add it with quantity 1
-            cart.push({ product, quantity: 1 });
-            // Move the product to the top of the list in the products array
-            const productIndex = products.findIndex(p => p.id === product.id);
-            const [removedProduct] = products.splice(productIndex, 1);
-            products.unshift(removedProduct);
-        }
+        } else cart.push({ product, quantity: 1 });
         localStorage.setItem('cart', JSON.stringify(cart)); // Save cart to localStorage
         loadProducts(); // Reload the product list to update the cart UI
     } else {
@@ -156,23 +149,16 @@ function addToCart(productId) {
 // Update the quantity of an item in the cart
 function updateQuantity(productId, action) {
     const existingProduct = cart.find(item => item.product.id === productId);
-
     if (existingProduct) {
         if (action === 'increase') {
             existingProduct.quantity++;
         } else if (action === 'decrease') {
             existingProduct.quantity--;
         }
-
-        // If quantity reaches 0, remove the product from the cart and move it to the end of the products array
         if (existingProduct.quantity === 0) {
             const productIndex = cart.findIndex(item => item.product.id === productId);
-            const [removedItem] = cart.splice(productIndex, 1); // Remove from cart
-            const productIndexInProducts = products.findIndex(p => p.id === productId);
-            const [removedProduct] = products.splice(productIndexInProducts, 1);
-            products.push(removedProduct);
+            cart.splice(productIndex, 1); // Remove from cart
         }
-
         localStorage.setItem('cart', JSON.stringify(cart)); // Save updated cart to localStorage
         loadProducts(products); // Reload the product list to update the UI
     }

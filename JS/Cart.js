@@ -70,26 +70,26 @@ function searchCartItems() {
 
 // Update quantity in the cart
 function updateQuantity(productId, action) {
-    const cartItem = cart.find(item => item.product.id === Number(productId));
-    if (cartItem) {
+    const cartItemIndex = cart.findIndex(item => item.product.id === Number(productId));
+    if (cartItemIndex !== -1) {
+        const cartItem = cart[cartItemIndex];
         if (action === "increase") {
             cartItem.quantity++;
         } else if (action === "decrease") {
-            cartItem.quantity = Math.max(1, cartItem.quantity - 1); // Minimum quantity is 1
+            cartItem.quantity--;
+            if (cartItem.quantity === 0) {
+                cart.splice(cartItemIndex, 1);
+            }
         }
-        localStorage.setItem('cart', JSON.stringify(cart)); // Persist updated cart
-        loadCartItems(); // Re-render cart
+        localStorage.setItem('cart', JSON.stringify(cart));
+        loadCartItems();
     }
 }
 
 // Event listeners for cart actions
 document.addEventListener("DOMContentLoaded", () => {
     loadCartItems(); // Load initial cart items
-
-    // Search input event
     searchInput.addEventListener("input", searchCartItems);
-
-    // Quantity buttons event delegation
     cartList.addEventListener("click", (event) => {
         if (event.target.classList.contains("quantity-button")) {
             const productId = event.target.getAttribute("data-id");
