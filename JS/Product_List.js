@@ -16,6 +16,7 @@ const products = [
      { id: 14, name: 'Athletic Fit Tee', price: 2999, category: 'T-Shirts', image: 'https://cdn.shopify.com/s/files/1/1860/2387/files/Crew_Neck-type.jpg?v=1723010734' },
      { id: 128, name: 'One Shoulder Tee', price: 1999, category: 'T-Shirts', image: 'https://cdn.tobi.com/product_images/md/4/white-tia-off-shoulder-tee.jpg' },
      { id: 129, name: 'Off Shoulder Tee', price: 1999, category: 'T-Shirts', image: 'https://cdn.tobi.com/product_images/md/2/black-wavy-off-shoulder-tee.jpg' },
+     { id: 130, name: 'Cut-Out Crop Top', price: 1799, category: 'T-Shirts', image: 'https://celebmafia.com/wp-content/uploads/2015/06/mila-de-wit-nasty-gal-collection-2015_7.jpg' },
 
      // Shirts
      { id: 15, name: 'Slim Fit Formal Shirt', price: 2850, category: 'Shirts', image: 'https://images.hawesandcurtis.com/tr:q-80/SE/SEPMA021-G01-128612-800px-1040px.jpg' },
@@ -31,9 +32,9 @@ const products = [
      { id: 25, name: 'Ombre Dyed Shirt', price: 1099, category: 'Shirts', image: 'https://www.jiomart.com/images/product/500x630/469369925_bluewhite/ombre-dyed-slim-fit-shirt-model-469369925_bluewhite-0-202301081734.jpg' },
          
      //Jeans
+     { id: 28, name: 'High-Waisted Mom Jeans', price: 1299, category: 'Jeans', image: 'https://images.bestsellerclothing.in/data/vero-moda/20-sep-2024/173691101_g4.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto&dpr=1.2' },
      { id: 26, name: 'Skinny Fit Stretch Jeans', price: 1399, category: 'Jeans', image: 'https://i2.wp.com/thejeansblog.com/wp-content/uploads/2015/12/topman-spray-on-skinny-jeans.jpg?resize=800%2C1087&ssl=1' },
      { id: 27, name: 'Ripped Distressed Jeans', price: 1499, category: 'Jeans', image: 'https://d1it09c4puycyh.cloudfront.net/920x1300/catalog/product/8/9/89WG-10193-BLUE_2.jpg' },
-     { id: 28, name: 'High-Waisted Mom Jeans', price: 1299, category: 'Jeans', image: 'https://images.bestsellerclothing.in/data/vero-moda/20-sep-2024/173691101_g4.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto&dpr=1.2' },
      { id: 29, name: 'Slim Fit Black Jeans', price: 1399, category: 'Jeans', image: 'https://cottonking.com/cdn/shop/files/D42930-1_88013664-d1d4-487d-8a96-1e9c96c5f376.jpg?v=1706687011' },
      { id: 30, name: 'Boyfriend Relaxed Jeans', price: 1499, category: 'Jeans', image: 'https://opt.moovweb.net/?quality=90&img=https%3A%2F%2Fcontent.jjill.com%2Fproduct%2F273701%2F273701_6GM_SIDE.jpg%3Fimpolicy%3Dpdp-main' },
      { id: 31, name: 'Straight-Leg Vintage Jeans', price: 1599, category: 'Jeans', image: 'https://theclothingfactory.in/cdn/shop/files/TCF17-10-2472966CINES092.jpg?v=1730703048' },
@@ -47,7 +48,8 @@ const products = [
      { id: 37, name: 'Jogger-Style Trousers', price: 1199, category: 'Trousers', image: 'https://images.meesho.com/images/products/435069828/eynit_512.webp' },
      { id: 38, name: 'Stretchable Corduroy Pants', price: 1499, category: 'Trousers', image: 'https://bananaclub.co.in/cdn/shop/files/TanCorduroyPants_1_04294743-1fd3-43a9-9c18-ed1e415fff04.jpg?v=1727528352' },
      { id: 39, name: 'Textured Linen Pants', price: 1399, category: 'Trousers', image: 'https://www.ottwaythelabel.com/cdn/shop/products/brownpantsmen-2.jpg?v=1669233532&width=1600' },
-     { id: 40, name: 'Tailored Workwear Pants', price: 1699, category: 'Trousers', image: 'https://cdn.shopify.com/s/files/1/0423/3576/4634/files/front_view_close-up_of_Pant_Project_olive_green_stretchable_trousers_310x.jpg?v=1726636678' },{ id: 41, name: 'Slim-Fit Chinos', price: 1299, category: 'Trousers', image: 'https://www.urbanofashion.com/cdn/shop/files/chino-cream_-_02.png?v=1725765209' },
+     { id: 40, name: 'Tailored Workwear Pants', price: 1699, category: 'Trousers', image: 'https://cdn.shopify.com/s/files/1/0423/3576/4634/files/front_view_close-up_of_Pant_Project_olive_green_stretchable_trousers_310x.jpg?v=1726636678' },
+     { id: 41, name: 'Slim-Fit Chinos', price: 1299, category: 'Trousers', image: 'https://www.urbanofashion.com/cdn/shop/files/chino-cream_-_02.png?v=1725765209' },
      { id: 42, name: 'Cargo Utility Pants', price: 1499, category: 'Trousers', image: 'https://saintjones.in/cdn/shop/files/Baggy_Utility_Pants-10_pockets_Light_Grey_-_St.Jones-3829172.jpg?v=1727176337' },
      { id: 43, name: 'Wide-Leg Palazzo Trousers', price: 1399, category: 'Trousers', image: 'https://twinbirds.co.in/cdn/shop/products/1801-WIDELEGPALAZZO-SWEETCORN.jpg?v=1681808189&width=1090' },
      { id: 44, name: 'High-Waisted Paperbag Pants', price: 1499, category: 'Trousers', image: 'https://www.rw-co.com/on/demandware.static/-/Sites-Rwco-master-catalog/default/dwe615ecdb/images/xlarge/rwco_460082_275_0.jpg' },
@@ -55,28 +57,27 @@ const products = [
      { id: 127, name: 'Satin Trousers', price: 1599, category: 'Trousers', image: 'https://i.pinimg.com/736x/da/0f/16/da0f16ada62ec05bd5ce626257cb54a7.jpg' },
      
      // Jackets
-     { id: 46, name: 'Longline Trench Coat', price: 3499, category: 'Jackets', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFK830guKuPW5uePYTt65Kt2HUYPFWyPatUA&s' },
      { id: 47, name: 'Fleece Zip-Up Jacket', price: 1599, category: 'Jackets', image: 'https://www.sporto.in/cdn/shop/files/1_f815b5e5-032d-49f5-ab6b-5a86c246c334_1080x1440.jpg?v=1714719807' },
      { id: 48, name: 'Reversible Casual Jacket', price: 1999, category: 'Jackets', image: 'https://images-static.nykaa.com/media/catalog/product/c/0/c0b6039MJKT00187_BROWN_1.jpg?tr=w-500' },
      { id: 49, name: 'Varsity Letterman Jacket', price: 1899, category: 'Jackets', image: 'https://nutcaseshop.com/cdn/shop/files/NC-CUS-VARJACK-BLK-001.png?v=1704524242' },
-     { id: 50, name: 'Wool-Blend Double-Breasted Coat', price: 3999, category: 'Jackets', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsT-TUVC7gWTRczZWcZCZSngq69FZa_IUYRA&s' },
      { id: 51, name: 'Classic Denim Jacket', price: 1999, category: 'Jackets', image: 'https://www.alamodelabel.in/cdn/shop/files/CAC1064B-887B-47A4-AFE9-E0AF3E8ABC94.jpg?v=1717500962' },
      { id: 52, name: 'Faux Leather Biker Jacket', price: 2999, category: 'Jackets', image: 'https://d118ps6mg0w7om.cloudfront.net/media/catalog/product/1/6/fit-in/1000x1333/16-04-24_mfj-1156-r-01-black_1_mfj-1156-r-01-black.jpg' },
-     { id: 53, name: 'Quilted Winter Puffer Jacket', price: 2499, category: 'Jackets', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkeoU4_RFPCj8czR5ueoE_nIDdGEMiTVXmuA&s' },
+     { id: 53, name: 'Quilted Puffer Jacket', price: 2499, category: 'Jackets', image: 'https://th.bing.com/th/id/OIP.qocXqPHJOXMi2Kn6Qq5TsgHaKH?w=840&h=1147&rs=1&pid=ImgDetMain' },
      { id: 54, name: 'Oversized Hooded Jacket', price: 2299, category: 'Jackets', image: 'https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/24979448/2024/10/17/b650a67d-2e5d-40d4-abc0-583ed7f490a91729151693756-NOBERO-Men-Oversized-Solid-Hooded-Sweatshirt-502172915169319-1.jpg' },
      { id: 55, name: 'Cropped Bomber Jacket', price: 1799, category: 'Jackets', image: 'https://nolabels.in/cdn/shop/files/DSC01106_9cf2cef9-bed9-4de7-93f9-734c220af19e.jpg?v=1728371249&width=1080' },
+
      // Hoodies & Sweatshirts
-      {id: 56, name: 'Ribbed Hem Crewneck Sweatshirt', price: 1299, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKg4_3PrYPayWhxFZGWc4RqwRYxUrGgH-RIg&s' },
-     { id: 57, name: 'Tie-Dye Pullover Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTrYmhJMyT6uwqrYyDQlhkuDYXQaaSimEug&s' },
-     { id: 58, name: 'Embroidered Logo Sweatshirt', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://shop.wimbledon.com/media/catalog/product/cache/cee6bc8b62379782781ed8712f4cd106/w/o/womens-logo-sweatshirt-white-23ww03w-front.png' },
-     { id: 59, name: 'Kangaroo Pocket Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy09Pns5e_60407iEtAwnDyWly6Z4VrrBklg&s' },
-     { id: 60, name: 'Thermal Knit Hoodie', price: 1699, category: 'Hoodies & Sweatshirts', image: 'https://www.jamesperse.com/cdn/shop/files/MBTK3472_DAP_4501_360x.progressive.jpg?v=1709078495' },
-     { id: 61, name: 'Pullover Fleece Hoodie', price: 1299, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PuRen6jM3OfBSn2twI-l7pmmey3FTLCtvA&s' },
-     { id: 62, name: 'Zip-Up Sports Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://images-cdn.ubuy.co.in/65e435d4bfea5b294c3ce98d-men-zipper-running-hoodies-sport-jackets.jpg' },
-     { id: 63, name: 'Oversized Graphic Hoodie', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgdpfRHeoe_1M-DG2alBORlPNaziT9oA7KA&s' },
+     {id: 56, name: 'Ribbed Hem Crewneck Sweatshirt', price: 1299, category: 'Hoodies & Sweatshirts', image: 'https://www.jiomart.com/images/product/500x630/469405465_lightgreymelange/crew-neck-sweatshirt-with-ribbed-hems-model-469405465_lightgreymelange-0-202309272106.jpg' },
+     { id: 57, name: 'Tie-Dye Pullover Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://www.lulus.com/images/product/xlarge/4578310_898582.jpg' },
+     { id: 58, name: 'Embroidered Logo Sweatshirt', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://th.bing.com/th/id/OIP.SEt0oHgbf900Lyud-CMpmAHaJ4?rs=1&pid=ImgDetMain' },
+     { id: 59, name: 'Kangaroo Pocket Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://th.bing.com/th/id/OIP.CdWdtEdlfSw93qjPdemcMgHaJ4?w=1080&h=1440&rs=1&pid=ImgDetMain' },
+     { id: 60, name: 'Thermal Knit Hoodie', price: 1699, category: 'Hoodies & Sweatshirts', image: 'https://th.bing.com/th/id/OIP.J-8B-2tXrSGW_k6egVTyxAHaJ4?rs=1&pid=ImgDetMain' },
+     { id: 61, name: 'Pullover Fleece Hoodie', price: 1299, category: 'Hoodies & Sweatshirts', image: 'https://th.bing.com/th/id/R.e776333c49b1b755c4cda957628b31f5?rik=k3TpGQooDWQXJg&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0123%2f5065%2f2473%2fproducts%2fbuck-mason-brushed-loopback-hooded-sweatshirt-black-2_1024x1024.jpg%3fv%3d1583969244&ehk=IRu%2fwe8HN%2bEkwPRzXb3PrC8Wlo%2bo%2fUc5%2famwobJXtvY%3d&risl=&pid=ImgRaw&r=0' },
+     { id: 62, name: 'Zip-Up Sports Hoodie', price: 1499, category: 'Hoodies & Sweatshirts', image: 'https://image1.superdry.com/static/images/optimised/zoom/upload9223368955665767461.jpg' },
+     { id: 63, name: 'Oversized Graphic Hoodie', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://image1.superdry.com/static/images/optimised/zoom/upload9223368955665965441.jpg' },
      { id: 64, name: 'Color Block Hoodie', price: 1399, category: 'Hoodies & Sweatshirts', image: 'https://www.snitch.co.in/cdn/shop/files/4MSWH9858-01-M7.jpg?v=1700070709&width=1080' },
      { id: 65, name: 'Cropped Sweatshirt', price: 1199, category: 'Hoodies & Sweatshirts', image: 'https://images.bestsellerclothing.in/data/only/13-july-2023/248503501_g0.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto' },
-     { id: 66, name: 'Spring Pastel Hoodies', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://i.pinimg.com/736x/cd/64/51/cd64512b840b28eb84c17581e3d7c49c.jpg' },
+     { id: 66, name: 'Spring Pastel Hoodies', price: 1599, category: 'Hoodies & Sweatshirts', image: 'https://i.pinimg.com/736x/47/8c/4c/478c4c53e09976188402a4f993681d19.jpg' },
 
 
       // Skirts
@@ -86,6 +87,7 @@ const products = [
      { id: 70, name: 'Floral Print Pleated Skirt', price: 1199, category:'Skirts', image:'https://i.pinimg.com/736x/68/b2/23/68b223e26606cf38fe337cce41caca5c--floral-print-skirt-floral-skirts.jpg'},
      { id: 71, name: 'High-Waist Pencil Skirt', price: 1299, category: 'Skirts', image: 'https://i.pinimg.com/736x/21/05/d1/2105d1ac38288de5a2b22c9b3c961481.jpg' },
      { id: 72, name: 'Plaid Pleated Skirt', price: 1499, category: 'Skirts', image: 'https://th.bing.com/th/id/OIP.uK76lqPiu-Fi1EQ0MaUtJQAAAA?rs=1&pid=ImgDetMain' },
+     { id: 131, name: 'Pleated Midi Skirt', price: 1699, category: 'Skirts', image: 'https://d12hzjwrv4lm49.cloudfront.net/sites/files/chello/productimg/202212/800xAUTO/AryaPleatedMidiSkirtinMatteNudeBeige12.jpg' },
      { id: 73, name: 'Satin Wrap Skirt', price: 1799, category: 'Skirts', image: 'https://i.pinimg.com/736x/6f/28/7a/6f287acb581d86778832867e529b702f.jpg' },
      { id: 74, name: 'A-Line Button-Up Skirt', price: 1399, category: 'Skirts', image: 'https://cdn.tobi.com/product_images/md/4/navy-lydia-linen-crop-halter-top@2x.jpg' },
      { id: 75, name: 'Layered Ruffle Skirt', price: 1599, category: 'Skirts', image: 'https://th.bing.com/th/id/OIP.3sZinJ_UleT64fHSSGRTfQHaIZ?rs=1&pid=ImgDetMain' },
@@ -99,7 +101,7 @@ const products = [
      // Shorts
      { id: 82, name: 'Classic Denim Shorts', price: 999, category: 'Shorts', image: 'https://www.target.com.au/medias/static_content/product/images/large/05/28/A1520528.jpg' },
      { id: 83, name: 'High-Waisted Mom Shorts', price: 1199, category: 'Shorts', image: 'https://media.nastygal.com/i/nastygal/agg71493_black_xl/womens-black-denim-high-waisted-mom-shorts/?w=1070&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' },
-     { id: 85, name: 'Paperbag Belted Shorts', price: 1099, category: 'Shorts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExj-M0klOiO1kFAzQWfM39kTp212NDUnQJA&s' },
+     { id: 85, name: 'Paperbag Belted Shorts', price: 1099, category: 'Shorts', image: 'https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dw99b0c540/1_front_750/00457984-04.jpg' },
      { id: 86, name: 'Pleated Formal Shorts', price: 1299, category: 'Shorts', image: 'https://www.mrporter.com/variants/images/1647597308896890/ou/w2000_q60.jpg' },
      { id: 126, name: 'Satin Lounge Shorts', price: 999, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.IG6XmBYQYNllDYDgCCRriAHaLH?rs=1&pid=ImgDetMain' },
      { id: 87, name: 'Cuffed Shorts', price: 999, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.ERccUlcPr2chRz5GNEzxcAHaLH?rs=1&pid=ImgDetMain' },
@@ -108,6 +110,10 @@ const products = [
      { id: 90, name: 'Utility Cargo Shorts', price: 1299, category: 'Shorts', image: 'https://i.pinimg.com/736x/cc/64/80/cc64807d48b4fedb7ba853fb8a83c2ef.jpg' },
      { id: 91, name: 'Athletic Track Shorts', price: 799, category: 'Shorts', image: 'https://i5.walmartimages.com/asr/21d42286-b9cb-463c-b921-5bc6f2095796.6df7879254f461fa10da26cd36ad2bea.jpeg' },
      { id: 92, name: 'Linen Drawstring Shorts', price: 899, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.ARz7PhrwOrKg7aZXB0mcqQHaJ4?rs=1&pid=ImgDetMain' },
+     { id: 132, name: 'Elastic Waist Shorts', price: 899, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.Cz_Oim0krm8UW2hRIAz7HgHaLH?rs=1&pid=ImgDetMain' },
+     { id: 133, name: 'Distressed Denim Shorts', price: 1099, category: 'Shorts', image: 'https://i.pinimg.com/originals/3e/87/d5/3e87d54f24745861a0c78e8e1cc1e187.jpg' },
+     { id: 134, name: 'Patchwork Denim Shorts', price: 1199, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.ZwuY8n_5ujogJvLXCJIoEQHaHa?w=880&h=880&rs=1&pid=ImgDetMain' },
+     { id: 135, name: 'Relaxed Fit Shorts', price: 999, category: 'Shorts', image: 'https://th.bing.com/th/id/OIP.rv1jZTERY53__TRyx30WtQHaLH?rs=1&pid=ImgDetMain' },
      
      // Footwear
      { id: 93, name: 'White Leather Sneakers', price: 2999, category: 'Footwear', image: 'https://bennetic.com/wp-content/uploads/2024/02/IMG_4559-1.jpg' },
@@ -116,12 +122,13 @@ const products = [
      { id: 96, name: 'Flip-Flop Sandals', price: 499, category: 'Footwear', image: 'https://images-cdn.ubuy.co.in/633addb3ecf317552428ffe5-ubuy-online-shopping.jpg' },
      { id: 97, name: 'Strappy Gladiator Flats', price: 1299, category: 'Footwear', image: 'https://images-static.nykaa.com/media/catalog/product/6/6/66db3f8990572BLACK_1.jpg?tr=w-500' },
      { id: 98, name: 'Embellished Pumps', price: 2399, category: 'Footwear', image: 'https://www.shoetree.io/cdn/shop/files/RGAW23-8687Q-31_OFF_WHITE_1_b2a01812-9627-4fe7-b156-9882ed01c27f.jpg?v=1710863928' },
-     { id: 99, name: 'Lace-Up Hiking Boots', price: 2799, category: 'Footwear', image: 'https://urban-planet.com/cdn/shop/files/087161381520-01-0_84c4b3ed-5c91-459d-a2a2-48fed4800c78_420x.jpg?v=1725028331' },
+     { id: 99, name: 'Lace-Up Hiking Boots', price: 2799, category: 'Footwear', image: 'https://i.pinimg.com/736x/71/e6/df/71e6df7c13808675961e8a4f2d1bedb7.jpg' },
      { id: 100, name: 'Knitted Slip-On Shoes', price: 1499, category: 'Footwear', image: 'https://images-cdn.ubuy.co.in/654a532e58be7d03f23eacb5-audeban-women-slip-on-sock-sneakers.jpg' },
      { id: 101, name: 'Slip-On Canvas Shoes', price: 1299, category: 'Footwear', image: 'https://fausto.in/cdn/shop/products/FST_KI-8825_OLIVE_1-1_MOOD_400x.jpg?v=1679580827' },
      { id: 102, name: 'Open-Toe Block Heels', price: 1799, category: 'Footwear', image: 'https://www.lulus.com/images/product/xlarge/9061401_1785676.jpg?w=375&hdpi=1' },
-     { id: 103, name: 'Stiletto Heels', price: 2599, category: 'Footwear', image: 'https://cdn.staticans.com/image/tr:e-sharpen-01,h-1440,w-1920,cm-pad_resize/data/Regal-Shoes/15-July-2023/9360896_2.jpg' },
-     { id: 104, name: 'Fall Leather Boots', price: 2999, category: 'Footwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWpTz0NhvMniF1UtleQfTPQrvIarb2flGbA&s' },
+     { id: 103, name: 'Stiletto Heels', price: 2599, category: 'Footwear', image: 'https://i.pinimg.com/originals/31/6e/67/316e677a11e40837bdf200bbb74422eb.jpg' },
+     { id: 104, name: 'Fall Leather Boots', price: 2999, category: 'Footwear', image: 'https://th.bing.com/th/id/OIP.Y4sf8NA4LwmH_-DmRiswEwHaLH?rs=1&pid=ImgDetMain' },
+     { id: 139, name: 'Fur-Lined Ankle Boots', price: 2499, category: 'Footwear', image: 'https://imagedelivery.net/qQVYSIvyXiV4MHZje7HLkA/sVD9WyfRn7qrJ5BR-tobacco-ladies-fur-lined-leather-lace-up-boots-kelk/560w' },
      
      
      // Activewear
@@ -139,32 +146,35 @@ const products = [
 
      // Sleepwear
      { id: 116, name: 'Graphic Print Night Tee', price: 899, category: 'Sleepwear', image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/25285882/2023/9/29/6c5cdf3f-459f-4b67-86ea-7cf96e79495f1696006237042JulyWomenWhiteYellowPrintedNightsuit1.jpg' },
-     { id: 117, name: 'Short-Sleeve Pajama Dress', price: 1399, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V9u8UJbwIXt6XRurFTiqRnkPgcRnBdX27w&s' },
+     { id: 117, name: 'Short-Sleeve Dress', price: 1399, category: 'Sleepwear', image: 'https://i.pinimg.com/originals/42/29/39/4229398a12ed1cdffad5ae363494ec75.jpg' },
      { id: 118, name: 'Velvet Robe Set', price: 1799, category: 'Sleepwear', image: 'https://bocancouture.com/cdn/shop/files/RS081-19112PWDR-635PWDR-1.jpg?v=1709810420&width=1500' },
      { id: 119, name: 'Button-Up Pajama Shirt', price: 1099, category: 'Sleepwear', image: 'https://media.boohoo.com/i/boohoo/gzz60644_black_xl_2/female-jersey-knit-short-sleeve-button-up-pajama-shirt' },
-     { id: 120, name: 'Thermal Long Johns', price: 1299, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhU7kc0UJ9cXSNzTD5ahXydYCVmP7Qeed-SA&s' },
+     { id: 120, name: 'Thermal Long Johns', price: 1299, category: 'Sleepwear', image: 'https://th.bing.com/th/id/OIP.DlYq-gNPt5zJ1JQBdC0niAHaI4?rs=1&pid=ImgDetMain' },
      { id: 121, name: 'Cotton Pajama Set', price: 1299, category: 'Sleepwear', image: 'https://www.perofil.com/media/catalog/product/8/0/8001611873221.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1472&width=1024&canvas=1024:1472' },
      { id: 122, name: 'Satin Nightgown', price: 1999, category: 'Sleepwear', image: 'https://www.privatelives.in/cdn/shop/products/Final1_1000x.jpg?v=1603269061' },
-     { id: 123, name: 'Flannel Sleep Shirt', price: 999, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkW2gt_YbAx_p7KN_iJGZShOAgurYKkZP0uw&s' },
-     { id: 124, name: 'Fleece Lounge Pants', price: 1199, category: 'Sleepwear', image: 'https://images-cdn.ubuy.co.in/65380f9d4e9f091ebb12bcc4-dg-hill-1pack-or-3pack-mens-pj-pajama.jpg' },
-     { id: 125, name: 'Silk Camisole Set', price: 2499, category: 'Sleepwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchJCohyN-inNFYPX_inpN56IAc3HimPzKvQ&s' },
+     { id: 123, name: 'Flannel Sleep Shirt', price: 999, category: 'Sleepwear', image: 'https://th.bing.com/th/id/R.adc97352e2590f5ec3892a8927e4c2ed?rik=fiSVXIH6F0q0WA&riu=http%3a%2f%2fcdnd.lystit.com%2fphotos%2f2013%2f01%2f09%2fpolo-ralph-lauren-blackwatch-cotton-flannel-sleep-shirt-product-1-5987386-649981730.jpeg&ehk=n9471vLgbsfWM4NAidufnbe%2bW%2bk5fxD%2fXcwSU0Gqrk4%3d&risl=&pid=ImgRaw&r=0' },
+     { id: 124, name: 'Fleece Lounge Pants', price: 1199, category: 'Sleepwear', image: 'https://th.bing.com/th/id/OIP.3h_F25NlGhEfheJSJlKpDAHaLH?rs=1&pid=ImgDetMain' },
+     { id: 125, name: 'Silk Camisole Set', price: 2499, category: 'Sleepwear', image: 'https://th.bing.com/th/id/OIP.1Ih2CZDZB0EPPI7HNy7TVAHaJ4?rs=1&pid=ImgDetMain' },
+
      // Winterwear
-      { id: 136, name: 'Fleece Joggers', price: 1399, category: 'Winterwear', image: 'https://www.victoriassecret.in/on/demandware.static/-/Sites-vs_master_catalog/default/dw25861879/large/111743064LD2_OM_F.jpg' },
-     { id: 137, name: 'Chunky Oversized Scarf', price: 899, category: 'Winterwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-eAS6MhewnXyKDWD_vzzZ747tL3SikCMpA&s' },
-     { id: 138, name: 'Beanie and Gloves Set', price: 999, category: 'Winterwear', image: 'https://m.media-amazon.com/images/I/91c7-HmygfL.jpg' },
-     { id: 139, name: 'Fur-Lined Ankle Boots', price: 2499, category: 'Winterwear', image: 'https://imagedelivery.net/qQVYSIvyXiV4MHZje7HLkA/sVD9WyfRn7qrJ5BR-tobacco-ladies-fur-lined-leather-lace-up-boots-kelk/560w' },
+     { id: 136, name: 'Fleece Joggers', price: 1399, category: 'Winterwear', image: 'https://www.victoriassecret.in/on/demandware.static/-/Sites-vs_master_catalog/default/dw25861879/large/111743064LD2_OM_F.jpg' },
+     { id: 137, name: 'Quilted Parka Coat', price: 3599, category: 'Winterwear', image: 'https://th.bing.com/th/id/OIP.tqtguopzoD2V0sLHwTy0ewHaLH?rs=1&pid=ImgDetMain' },
+     { id: 138, name: 'Thermal Leggings', price: 2599, category: 'Winterwear', image: 'https://th.bing.com/th/id/OIP.-Aa_6Ix_l88kKHDXIEFmaQHaJ4?rs=1&pid=ImgDetMain' },
      { id: 140, name: 'Thermal Base Layer', price: 1299, category: 'Winterwear', image: 'https://acaioutdoorwear.com/cdn/shop/products/BaseLayerTopBlackTop.jpg?v=1701704375&width=1946' },
      { id: 141, name: 'Cable Knit Sweater', price: 1499, category: 'Winterwear', image: 'https://media.brunellocucinelli.com/image/upload/f_auto,q_auto/t_bc_sfcc_v_image/v1720534576/prod/seecommerce/original/242MHM523600-C1597-F.jpeg?_i=AG' },
+     { id: 139, name: 'Chunky Knit Sweater', price: 3999, category: 'Winterwear', image: 'https://th.bing.com/th/id/OIP.Rlq9W65-FhHgMPkz6mAB-QHaLH?rs=1&pid=ImgDetMain' },
      { id: 142, name: 'Turtleneck Pullover', price: 1599, category: 'Winterwear', image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/29142724/2024/8/22/83d911f9-e7fd-48ff-a8da-f10ceb1d36bd1724324258821-Roadster-Men-Sweaters-3181724324258379-1.jpg' },
-     { id: 143, name: 'Woolen Overcoat', price: 3499, category: 'Winterwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6uMKfMP7ZtdqX3i8FUxGK_dI8Uc3avbflIw&s' },
-     { id: 144, name: 'Sherpa Lined Hoodie', price: 2299, category: 'Winterwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1lnyGJaPqCvWFf9ryZH6kbxEpip7hhSdOg&s' },
+     { id: 143, name: 'Down-Filled Vest', price: 1999, category: 'Winterwear', image: 'https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/5393441/2018/10/11/754b519e-8e65-4533-b7fe-d65a62e99f541539257019836-HRX-by-Hrithik-Roshan-Men-Olive-Green-Solid-Tailored-Jacket--1.jpg' },
+     { id: 144, name: 'Sherpa Lined Hoodie', price: 2299, category: 'Winterwear', image: 'https://th.bing.com/th/id/OIP.tytKSORVH2kPPSPE_fW4KwHaLH?w=1200&h=1800&rs=1&pid=ImgDetMain' },
      { id: 145, name: 'Knitted Cardigan', price: 1899, category: 'Winterwear', image: 'https://images.bestsellerclothing.in/data/selected/14-aug-2023/250133001_g1.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto' },
-     { id: 146, name: 'Christmas Themed Sweaters', price: 1799, category: 'Winterwear', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpQ0WiZDDL1aAK4PZgsHOvpx-j9hVe7wFnyg&s' },
+     { id: 146, name: 'Christmas Themed Sweaters', price: 1799, category: 'Winterwear', image: 'https://th.bing.com/th/id/OIP.bSpYSWRDF5Rzf_lJH9ohvwHaLD?w=736&h=1099&rs=1&pid=ImgDetMain' },
      { id: 147, name: 'Halloween Sweaters', price: 4999, category: 'Winterwear', image: 'https://cdn.shopify.com/s/files/1/0826/1673/products/HalloweenSweater-FallSweatshirt-HalloQueenSweatshirt-BrightandCatchy-874102_1024x1024.jpg?v=1662188461' },
 
      // Accessories
      { id: 148, name: 'Leather Crossbody Bag', price: 1799, category: 'Accessories', image: 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/090572/01/mod01/fnd/IND/fmt/png/Classics-Archive-Unisex-Cross-Body-Bag' },
-     { id: 149, name: 'Fedora Hat', price: 899, category: 'Accessories', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd7tXvfpbx-pYptVeJNcJGgfUH6kmkJdh-Ag&s' },
+     { id: 254, name: 'Kate Spade Bag', price: 2999, category: 'Accessories', image: 'https://celebmafia.com/wp-content/uploads/2024/12/madison-beer-stars-in-kate-spade-holiday-2024-collection-4.jpg' },
+     { id: 149, name: 'Fedora Hat', price: 899, category: 'Accessories', image: 'https://th.bing.com/th/id/OIP.0Vc-CQ0iK9GV_kGJluTfjwHaLH?rs=1&pid=ImgDetMain' },
+     { id: 138, name: 'Beanie and Gloves Set', price: 999, category: 'Winterwear', image: 'https://th.bing.com/th/id/OIP.arQLz0X7-IDUc100PWqqWQHaJQ?rs=1&pid=ImgDetMain' },
      { id: 150, name: 'Chunky Knit Scarf', price: 699, category: 'Accessories', image: 'https://i.pinimg.com/originals/a7/58/27/a75827ee41ed2e5d11ea9d22336fa780.jpg' },
      { id: 151, name: 'Metal Frame Sunglasses', price: 1499, category: 'Accessories', image: 'https://th.bing.com/th/id/OIP.mBw2SMdyonGwaqUEJwHt1AHaLH?rs=1&pid=ImgDetMain' },
      { id: 152, name: 'Minimalist Gold Necklace', price: 5299, category: 'Accessories', image: 'https://th.bing.com/th/id/OIP.jU-pwCKiuahda5JwaZkjSwHaHa?rs=1&pid=ImgDetMain' },
@@ -190,8 +200,10 @@ const products = [
      { id: 170, name: 'Slim Fit Grey Blazer', price: 2799, category: 'Coat & Blazers', image: 'https://coolcolors.in/cdn/shop/files/BZ122-3_4.jpg?v=1708522662&width=1200' },
      { id: 171, name: 'Formal Navy Blazer', price: 6999, category: 'Coat & Blazers', image: 'https://fashioncurves.in//storage/media/Jd1G2CnrhdGbpVST5wy536AAWr82ggdHRuMcj4cT.jpg' },
      { id: 172, name: 'Wool Trench Coat', price: 4599, category: 'Coat & Blazers', image: 'https://img.joomcdn.net/42515f71c189012aed004b865a79e8c123152a97_original.jpeg' },
+     { id: 46, name: 'Longline Trench Coat', price: 3499, category: 'Coat & Blazers', image: 'https://th.bing.com/th/id/OIP.IyyRrrGTYIxr0Vwgt4WosAAAAA?rs=1&pid=ImgDetMain' },
      { id: 173, name: 'Checkered Blazer', price: 2499, category: 'Coat & Blazers', image: 'https://www.bonsoir.co.in/cdn/shop/products/Brown_Check-Tweed-Blazer.jpg?crop=center&height=1200&v=1730118578&width=823' },
      { id: 174, name: 'Double-Breasted Trench Coat', price: 3999, category: 'Coat & Blazers', image: 'https://cdn18.nnnow.com/web-images/medium/styles/PNPYRJGB2S2/1703575970169/4.jpg' },
+     { id: 50, name: 'Wool-Blend Double-Breasted Coat', price: 3999, category: 'Coat & Blazers', image: 'https://n.nordstrommedia.com/id/sr3/f87dea0a-03af-4713-890c-b8f4b1f90f30.jpeg' },
      { id: 175, name: 'Casual Linen Blazer', price: 3499, category: 'Coat & Blazers', image: 'https://i.etsystatic.com/6811060/r/il/f0a548/6152353021/il_1588xN.6152353021_2ovc.jpg' },
      { id: 176, name: 'Charcoal Textured Blazer', price: 4695, category: 'Coat & Blazers', image: 'https://assets.ajio.com/medias/sys_master/root/20240718/M6zU/669833331d763220fada9c99/-473Wx593H-461622460-grey-MODEL.jpg' },
 
@@ -278,5 +290,7 @@ const products = [
      { id: 249, name: 'Boho Style Maxi Dress', price: 1899, category: 'Dresses', image: 'https://www.lulus.com/images/product/xlarge/5333796_978262.jpg?w=560' },
      { id: 250, name: 'Net A-Line Wedding Dress', price: 2999, category: 'Dresses', image: 'https://www.jasminebridal.com/productimg/bridal-dresses-F211011-F.jpg' },
      { id: 251, name: 'Halloween Dress', price: 1999, category: 'Dresses', image: 'https://www.refinery29.com/images/10126773.png?auto=webp&width=1440&height=2160&quality=85&crop=2:3' },
+     { id: 253, name: 'T-Back Mini Dress', price: 1999, category: 'Dresses', image: 'https://th.bing.com/th/id/R.ab4dd88799102ba4282b9cee072b3599?rik=fdZUDhq5uMfdYw&riu=http%3a%2f%2fimages.urbanoutfitters.com%2fis%2fimage%2fUrbanOutfitters%2f34475848_009_b%3f%24detailMain%24&ehk=dGBxHo8ZvPEumznHGqiB8sMzUYGdNaeuUSkZYvOdAso%3d&risl=&pid=ImgRaw&r=0' },
+     { id: 254, name: 'Backless Black Lace Dress', price: 2999, category: 'Dresses', image: 'https://www.lulus.com/images/product/xlarge/1227802_190162.jpg?w=375&hdpi=1' }
 ];
 export default products; // Default export
